@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JÉ Perfumes Importados</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <h1>JÉ</h1>
+            <p>Perfumes Importados</p>
+        </div>
+        <button class="cart-btn" onclick="toggleCart()">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cartCount">0</span>
+        </button>
+    </header>
+
+    <main>
+
+        <section class="hero">
+    <div class="hero-content">
+
+        <h2>Encontre sua nova essência</h2>
+
+        <a href="#catalogo" class="hero-btn">
+            Ver Catálogo
+        </a>
+
+    </div>
+</section>
+
+        <section class="categories">
+            <h2>Categorias</h2>
+
+            <div class="filters">
+                <button onclick="filterProducts('todos')">
+                    Todos
+                </button>
+
+                <button onclick="filterProducts('masculino')">
+                    Masculinos
+                </button>
+
+                <button onclick="filterProducts('feminino')">
+                    Femininos
+                </button>
+
+                <button onclick="filterProducts('unissex')">
+                    Unissex
+                </button>
+            </div>
+        </section>
+
+        <section class="products-section" id="catalogo">
+            <h2>Nossos perfumes</h2>
+
+            <div class="products-grid" id="productsGrid">
+                <!-- Os produtos serão adicionados pelo JavaScript -->
+            </div>
+        </section>
+
+    </main>
+
+    <aside class="cart-sidebar" id="cartSidebar">
+
+        <div class="cart-header">
+            <h2>Seu carrinho</h2>
+
+            <button onclick="toggleCart()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <div id="cartItems">
+            <p>Seu carrinho está vazio.</p>
+        </div>
+
+        <div class="cart-footer">
+            <p>
+                Total:
+                <strong id="totalPrice">R$ 0,00</strong>
+            </p>
+
+            <button onclick="sendToWhatsApp()">
+                <i class="fab fa-whatsapp"></i>
+                Enviar pelo WhatsApp
+            </button>
+        </div>
+
+    </aside>
+
+    <div class="overlay" id="overlay" onclick="toggleCart()">
+    </div>
+
+    <footer class="footer">
+        <p>© 2026 JÉ Perfumes Importados</p>
+
+        <a href="https://wa.me/5545999299109" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-whatsapp"></i>
+            WhatsApp
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
