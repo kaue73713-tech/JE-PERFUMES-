@@ -50,7 +50,7 @@ const products = [
         name: "Club de Nuit",
         category: "masculino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Elegante, marcante e com excelente projeção.",
         image: "IMAGENS/club de nuit.jpg"
     },
     {
@@ -58,7 +58,7 @@ const products = [
         name: "Musaman White",
         category: "feminino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Floral sofisticado, leve e muito refinado.",
         image: "IMAGENS/musaman.jpg"
     },
     {
@@ -66,7 +66,7 @@ const products = [
         name: "Afeef",
         category: "unissex",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Fragrância equilibrada, moderna e versátil para qualquer ocasião.",
         image: "IMAGENS/afeef unisex.jpg"
     },
     {
@@ -74,7 +74,7 @@ const products = [
         name: "Khanjar",
         category: "masculino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Amadeirado intenso com personalidade marcante.",
         image: "IMAGENS/khanjar.jpg"
     },
     {
@@ -82,7 +82,7 @@ const products = [
         name: "Marina Bourbon",
         category: "feminino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Doce, elegante e perfeito para ocasiões especiais.",
         image: "IMAGENS/marina bourbon.webp"
     },
     {
@@ -90,7 +90,7 @@ const products = [
         name: "Asad Yara Rose",
         category: "feminino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Floral frutado delicado, romântico e envolvente.",
         image: "IMAGENS/YARA ROSE.webp"
     },
     {
@@ -98,7 +98,7 @@ const products = [
         name: "Asad Yara",
         category: "feminino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Doce cremoso com toque floral e ótima fixação.",
         image: "IMAGENS/lattafa yara normal.webp"
     },
     {
@@ -106,7 +106,7 @@ const products = [
         name: "Asad Yara Branco",
         category: "feminino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Aroma suave, elegante e extremamente feminino.",
         image: "IMAGENS/ASAD BRANCO.jpg"
     },
     {
@@ -114,7 +114,7 @@ const products = [
         name: "Asad Bourbon",
         category: "unissex",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Amadeirado sofisticado com excelente desempenho.",
         image: "IMAGENS/ASAD MARROM.jpg"
     },
     {
@@ -122,7 +122,7 @@ const products = [
         name: "Asad Tradicional",
         category: "masculino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Especiado marcante com ótima projeção e fixação.",
         image: "IMAGENS/ASAD TRADICIONAL.webp"
     },
     {
@@ -130,7 +130,7 @@ const products = [
         name: "Rose Origami",
         category: "unissex",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Rosa sofisticada com toque moderno e refinado.",
         image: "IMAGENS/ROSE ORIGAMI.jpg"
     },
      {
@@ -138,7 +138,7 @@ const products = [
         name: "Al Noble Wazzer",
         category: "unissex",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Fragrância intensa, elegante e cheia de personalidade.",
         image: "IMAGENS/al noble.webp"
     },
      {
@@ -146,7 +146,7 @@ const products = [
         name: "Al Noble Safeer",
         category: "unissex",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Aroma fresco e sofisticado para qualquer momento.",
         image: "IMAGENS/Al noble Safeer.webp"
     },
      {
@@ -154,7 +154,7 @@ const products = [
         name: "Al Noble Ameer",
         category: "masculino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Amadeirado marcante com elegância e potência.",
         image: "IMAGENS/Al noble Ameer.jpg"
     },
      {
@@ -162,7 +162,7 @@ const products = [
         name: "Asdaaf Ameerat",
         category: "feminino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Floral oriental delicado e muito sofisticado.",
         image: "IMAGENS/Ameerat.webp"
     },
      {
@@ -170,7 +170,7 @@ const products = [
         name: "Silver Scent",
         category: "masculino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Clássico masculino elegante e envolvente.",
         image: "IMAGENS/silver scent.jpg"
     },
      {
@@ -178,7 +178,7 @@ const products = [
         name: "Atheeri",
         category: "feminino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Floral moderno com aroma delicado e marcante.",
         image: "IMAGENS/Atherri.webp"
     },
      {
@@ -186,7 +186,7 @@ const products = [
         name: "Calvin Klein",
         category: "masculino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Fresco, elegante e ideal para o uso diário.",
         image: "IMAGENS/Calvin Klein.webp"
     },
      {
@@ -194,7 +194,7 @@ const products = [
         name: "Britney Spears",
         category: "feminino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Doce, divertido e irresistivelmente feminino.",
         image: "IMAGENS/Fantasy Britney.webp"
     },
      {
@@ -202,7 +202,7 @@ const products = [
         name: "1 Million",
         category: "masculino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Amadeirado adocicado, luxuoso e marcante.",
         image: "IMAGENS/1 million.webp"
     },
      {
@@ -210,7 +210,7 @@ const products = [
         name: "Lady Million",
         category: "feminino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Floral sofisticado com toque adocicado elegante.",
         image: "IMAGENS/Lady million.webp"
     },
      {
@@ -218,7 +218,7 @@ const products = [
         name: "Ferrari Red",
         category: "masculino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Refrescante, vibrante e cheio de personalidade.",
         image: "IMAGENS/Ferrari red.webp"
     },
      {
@@ -226,7 +226,7 @@ const products = [
         name: "Club N1",
         category: "masculino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Masculino moderno com excelente presença.",
         image: "IMAGENS/Club N1.jpg"
     },
      {
@@ -234,7 +234,7 @@ const products = [
         name: "Tharwah Gold",
         category: "feminino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Doce sofisticado com toque oriental envolvente.",
         image: "IMAGENS/Tharwah Gold.jpg"
     },
      {
@@ -242,7 +242,7 @@ const products = [
         name: "Vulcan Avenue",
         category: "unissex",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Amadeirado moderno, intenso e versátil.",
         image: "IMAGENS/Frech avenue.webp"
     },
     {
@@ -250,7 +250,7 @@ const products = [
         name: "Dalal",
         category: "feminino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Doce oriental delicado e muito elegante.",
         image: "IMAGENS/Latafa Dalal.webp"
     },
     {
@@ -258,7 +258,7 @@ const products = [
         name: "Invictus",
         category: "masculino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Fresco aquático com excelente desempenho.",
         image: "IMAGENS/Invctus perfum.webp"
     },
     {
@@ -266,7 +266,7 @@ const products = [
         name: "Sauvage Dior",
         category: "masculino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Amadeirado aromático, intenso e sofisticado.",
         image: "IMAGENS/Sauvage Dior.avif"
     },
     {
@@ -274,7 +274,7 @@ const products = [
         name: "Afnan 9pm",
         category: "masculino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Doce especiado com ótima projeção e fixação.",
         image: "IMAGENS/Afnan 9pm.webp"
     },
     {
@@ -282,7 +282,7 @@ const products = [
         name: "212 Vip Black",
         category: "masculino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Intenso, moderno e perfeito para a noite.",
         image: "IMAGENS/212 Vip Black.jpg"
     },
      {
@@ -290,7 +290,7 @@ const products = [
         name: "Phantom",
         category: "masculino",
         price: 0.00,
-        description: "Descrição do perfume.",
+        description: "Aromático moderno com toque amadeirado elegante.",
         image: "IMAGENS/Phantom.webp"
     },
 
