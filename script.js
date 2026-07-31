@@ -27,7 +27,7 @@ const products = [
         category: "feminino",
         price: 0.00,
         description: "Perfume feminino floral, doce e elegante.",
-        image: "IMAGENS/SABAH AL WARD.webp"
+        image: "IMAGENS/Sabah Al Ward.webp"
     },
     {
         id: 4,
@@ -211,7 +211,7 @@ const products = [
         category: "feminino",
         price: 0.00,
         description: "Descrição do perfume.",
-        image: "IMAGENS/Lady Million.webp"
+        image: "IMAGENS/Lady million.webp"
     },
      {
         id: 27,
@@ -219,7 +219,7 @@ const products = [
         category: "masculino",
         price: 0.00,
         description: "Descrição do perfume.",
-        image: "IMAGENS/Ferrari Red.webp"
+        image: "IMAGENS/Ferrari red.webp"
     },
      {
         id: 28,
