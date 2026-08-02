@@ -293,6 +293,22 @@ const products = [
         description: "Aromático moderno com toque amadeirado elegante.",
         image: "IMAGENS/Phantom.webp"
     },
+    {
+        id: 37,
+        name: "Emper Legend",
+        category: "masculino",
+        price: 0.00,
+        description: "As notas de topo são: Flor de Laranjeira, Toranja, Limão e Alecrim.",
+        image: "IMAGENS/Emper Legend.webp"
+    },
+    {
+        id: 38,
+        name: "Lattafa Hala",
+        category: "masculino",
+        price: 0.00,
+        description: "As notas de topo são: Pimenta e Noz-moscada.",
+        image: "IMAGENS/Lattafa Hala.webp"
+    },
 
 
 ];
