@@ -333,6 +333,14 @@ const products = [
         description: "As notas de topo são: topo de bergamota, pimenta rosa e cardamomo, um coração exótico de goiaba, lavanda e gengibre,",
         image: "IMAGENS/Fakhar Platin.webp"
     },
+       {
+        id: 42,
+        name: "Ferrari Black",
+        category: "masculino",
+        price: 0.00,
+        description: "As notas de topo são: amadeirado e cítrico com toque doce e especiado, combinando notas de maçã vermelha, baunilha e canela.",
+        image: "IMAGENS/Ferrari Black.webp"
+    },
     
     
 
