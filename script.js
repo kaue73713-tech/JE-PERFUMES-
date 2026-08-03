@@ -309,6 +309,32 @@ const products = [
         description: "As notas de topo são: Pimenta e Noz-moscada.",
         image: "IMAGENS/Lattafa Hala.webp"
     },
+     {
+        id: 39,
+        name: "Fakhar Black Kit",
+        category: "masculino",
+        price: 0.00,
+        description: "As notas de topo são: Maçã, Bergamota e Gengibre, Lavanda, Sálvia, Bagas de Zimbro e Gerânio",
+        image: "IMAGENS/Fakhar black Kit.webp"
+    },
+     {
+        id: 40,
+        name: "Fakhar Gold",
+        category: "unissex",
+        price: 0.00,
+        description: "As notas de topo são: Toranja, cardamomo, pimenta-rosa, tuberosa e sal. Âmbar,",
+        image: "IMAGENS/Fakhar Gold.webp"
+    },
+       {
+        id: 41,
+        name: "Fakhar Platin",
+        category: "masculino",
+        price: 0.00,
+        description: "As notas de topo são: topo de bergamota, pimenta rosa e cardamomo, um coração exótico de goiaba, lavanda e gengibre,",
+        image: "IMAGENS/Fakhar Platin.webp"
+    },
+    
+    
 
 
 ];
