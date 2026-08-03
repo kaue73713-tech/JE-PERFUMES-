@@ -341,6 +341,14 @@ const products = [
         description: "As notas de topo são: amadeirado e cítrico com toque doce e especiado, combinando notas de maçã vermelha, baunilha e canela.",
         image: "IMAGENS/Ferrari Black.webp"
     },
+    {
+        id: 43,
+        name: "Asad Zanzibar",
+        category: "masculino",
+        price: 0.00,
+        description: "As notas de topo são: Lavanda e pimenta preta Água de coco, íris e sal, Baunilha e incenso",
+        image: "IMAGENS/ASAD ZANZIBAR.webp"
+    },
     
     
 
