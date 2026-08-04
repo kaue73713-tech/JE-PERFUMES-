@@ -349,7 +349,15 @@ const products = [
         description: "As notas de topo são: Lavanda e pimenta preta Água de coco, íris e sal, Baunilha e incenso",
         image: "IMAGENS/ASAD ZANZIBAR.webp"
     },
-    
+      {
+        id: 44,
+        name: "Bleu de Chanel",
+        category: "masculino",
+        price: 0.00,
+        description: "As notas de topo são: fragrância amadeirada aromática com foco em notas cítricas, frescas e terrosas.",
+        image: "IMAGENS/ Bleu de Chanel.webp"
+    },
+   
     
 
 
