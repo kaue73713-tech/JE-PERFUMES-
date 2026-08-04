@@ -355,7 +355,7 @@ const products = [
         category: "masculino",
         price: 0.00,
         description: "As notas de topo são: fragrância amadeirada aromática com foco em notas cítricas, frescas e terrosas.",
-        image: "IMAGENS/ Bleu de Chanel.webp"
+        image: "IMAGENS/Bleu de Chanel.webp"
     },
    
     
