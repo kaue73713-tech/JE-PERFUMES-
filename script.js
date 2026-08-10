@@ -357,7 +357,14 @@ const products = [
         description: "As notas de topo são: fragrância amadeirada aromática com foco em notas cítricas, frescas e terrosas.",
         image: "IMAGENS/Bleu de Chanel.webp"
     },
-   
+{
+        id: 45,
+        name: "Animale For Man",
+        category: "masculino",
+        price: 0.00,
+        description: "As notas de topo são: abertura fresca de limão e frésia com um coração de lavanda e gerânio, apoiado por uma base forte de couro, musgo de carvalho e vetiver.",
+        image: "IMAGENS/Animale perfum.webp"
+    },
     
 
 
