@@ -365,6 +365,14 @@ const products = [
         description: "As notas de topo são: abertura fresca de limão e frésia com um coração de lavanda e gerânio, apoiado por uma base forte de couro, musgo de carvalho e vetiver.",
         image: "IMAGENS/Animale perfum.webp"
     },
+    {
+        id: 46,
+        name: "Liquid Brun",
+        category: "masculino",
+        price: 0.00,
+        description: "As notas de topo são: Canela, Flor de Laranjeira, Cardamomo e Bergamota, Baunilha de Bourbon e Elemi.",
+        image: "IMAGENS/Liquid Brun.jpg"
+    },
     
 
 
