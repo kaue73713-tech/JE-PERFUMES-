@@ -6,420 +6,419 @@ const WHATSAPP_NUMBER = "5545999299109";
 // Lista de perfumes
 const products = [
     {
-        id: 1,
-        name: "Pisa",
-        category: "masculino",
-        occasion: "noite",  
-        price: 0.00,
-        description: "Perfume masculino marcante e sofisticado.",
-        image: "IMAGENS/PISA LATTAFA.webp"
-    },
-    {
-        id: 2,
-        name: "Asad Elixir",
-        category: "masculino",
-        occasion: "dia",  
-        price: 0.00,
-        description: "Fragrância intensa, elegante e envolvente.",
-        image: "IMAGENS/ASAD ELIXIR.webp"
-    },
-    {
-        id: 3,
-        name: "Sabah Al Ward",
-        category: "feminino",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Perfume feminino floral, doce e elegante.",
-        image: "IMAGENS/Sabah Al Ward.webp"
-    },
-    {
-        id: 4,
-        name: "Fakhar Rose",
-        category: "feminino",
-        price: 0.00,
-        description: "Fragrância feminina delicada e sofisticada.",
-        image: "IMAGENS/Fakhar Rose.webp"
-    },
-    {
-        id: 5,
-        name: "Khamrah",
-        category: "unissex",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Perfume doce, quente e marcante.",
-        image: "IMAGENS/Khamrah.jpg"
-    },
-    {
-        id: 6,
-        name: "Club de Nuit",
-        category: "masculino",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Elegante, marcante e com excelente projeção.",
-        image: "IMAGENS/club de nuit.jpg"
-    },
-    {
-        id: 7,
-        name: "Musaman White",
-        category: "feminino",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Floral sofisticado, leve e muito refinado.",
-        image: "IMAGENS/musaman.jpg"
-    },
-    {
-        id: 8,
-        name: "Afeef",
-        category: "unissex",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Fragrância equilibrada, moderna e versátil para qualquer ocasião.",
-        image: "IMAGENS/afeef unisex.jpg"
-    },
-    {
-        id: 9,
-        name: "Khanjar",
-        category: "masculino",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Amadeirado intenso com personalidade marcante.",
-        image: "IMAGENS/khanjar.jpg"
-    },
-    {
-        id: 10,
-        name: "Marina Bourbon",
-        category: "feminino",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Doce, elegante e perfeito para ocasiões especiais.",
-        image: "IMAGENS/marina bourbon.webp"
-    },
-    {
-        id: 11,
-        name: "Asad Yara Rose",
-        category: "feminino",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Floral frutado delicado, romântico e envolvente.",
-        image: "IMAGENS/YARA ROSE.webp"
-    },
-    {
-        id: 12,
-        name: "Asad Yara",
-        category: "feminino",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Doce cremoso com toque floral e ótima fixação.",
-        image: "IMAGENS/lattafa yara normal.webp"
-    },
-    {
-        id: 13,
-        name: "Asad Yara Branco",
-        category: "feminino",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Aroma suave, elegante e extremamente feminino.",
-        image: "IMAGENS/ASAD BRANCO.jpg"
-    },
-    {
-        id: 14,
-        name: "Asad Bourbon",
-        category: "unissex",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Amadeirado sofisticado com excelente desempenho.",
-        image: "IMAGENS/ASAD MARROM.jpg"
-    },
-    {
-        id: 15,
-        name: "Asad Tradicional",
-        category: "masculino",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Especiado marcante com ótima projeção e fixação.",
-        image: "IMAGENS/ASAD TRADICIONAL.webp"
-    },
-    {
-        id: 16,
-        name: "Rose Origami",
-        category: "unissex",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Rosa sofisticada com toque moderno e refinado.",
-        image: "IMAGENS/ROSE ORIGAMI.jpg"
-    },
-     {
-        id: 17,
-        name: "Al Noble Wazzer",
-        category: "unissex",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Fragrância intensa, elegante e cheia de personalidade.",
-        image: "IMAGENS/al noble.webp"
-    },
-     {
-        id: 18,
-        name: "Al Noble Safeer",
-        category: "unissex",
-         occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Aroma fresco e sofisticado para qualquer momento.",
-        image: "IMAGENS/Al noble Safeer.webp"
-    },
-     {
-        id: 19,
-        name: "Al Noble Ameer",
-        category: "masculino",
-         occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Amadeirado marcante com elegância e potência.",
-        image: "IMAGENS/Al noble Ameer.jpg"
-    },
-     {
-        id: 20,
-        name: "Asdaaf Ameerat",
-        category: "feminino",
-         occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Floral oriental delicado e muito sofisticado.",
-        image: "IMAGENS/Ameerat.webp"
-    },
-     {
-        id: 21,
-        name: "Silver Scent",
-        category: "masculino",
-         occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Clássico masculino elegante e envolvente.",
-        image: "IMAGENS/silver scent.jpg"
-    },
-     {
-        id: 22,
-        name: "Atheeri",
-        category: "feminino",
-         occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Floral moderno com aroma delicado e marcante.",
-        image: "IMAGENS/Atherri.webp"
-    },
-     {
-        id: 23,
-        name: "Calvin Klein",
-        category: "masculino",
-         occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Fresco, elegante e ideal para o uso diário.",
-        image: "IMAGENS/Calvin Klein.webp"
-    },
-     {
-        id: 24,
-        name: "Britney Spears",
-        category: "feminino",
-         occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Doce, divertido e irresistivelmente feminino.",
-        image: "IMAGENS/Fantasy Britney.webp"
-    },
-     {
-        id: 25,
-        name: "1 Million",
-        category: "masculino",
-         occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Amadeirado adocicado, luxuoso e marcante.",
-        image: "IMAGENS/1 million.webp"
-    },
-     {
-        id: 26,
-        name: "Lady Million",
-        category: "feminino",
-         occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Floral sofisticado com toque adocicado elegante.",
-        image: "IMAGENS/Lady million.webp"
-    },
-     {
-        id: 27,
-        name: "Ferrari Red",
-        category: "masculino",
-         occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Refrescante, vibrante e cheio de personalidade.",
-        image: "IMAGENS/Ferrari red.webp"
-    },
-     {
-        id: 28,
-        name: "Club N1",
-        category: "masculino",
-         occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Masculino moderno com excelente presença.",
-        image: "IMAGENS/Club N1.jpg"
-    },
-     {
-        id: 29,
-        name: "Tharwah Gold",
-        category: "feminino",
-         occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Doce sofisticado com toque oriental envolvente.",
-        image: "IMAGENS/Tharwah Gold.jpg"
-    },
-     {
-        id: 30,
-        name: "Vulcan Avenue",
-        category: "unissex",
-         occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Amadeirado moderno, intenso e versátil.",
-        image: "IMAGENS/Frech avenue.webp"
-    },
-    {
-        id: 31,
-        name: "Dalal",
-        category: "feminino",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Doce oriental delicado e muito elegante.",
-        image: "IMAGENS/Latafa Dalal.webp"
-    },
-    {
-        id: 32,
-        name: "Invictus",
-        category: "masculino",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Fresco aquático com excelente desempenho.",
-        image: "IMAGENS/Invctus perfum.webp"
-    },
-    {
-        id: 33,
-        name: "Sauvage Dior",
-        category: "masculino",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Amadeirado aromático, intenso e sofisticado.",
-        image: "IMAGENS/Sauvage Dior.avif"
-    },
-    {
-        id: 34,
-        name: "Afnan 9pm",
-        category: "masculino",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Doce especiado com ótima projeção e fixação.",
-        image: "IMAGENS/Afnan 9pm.webp"
-    },
-    {
-        id: 35,
-        name: "212 Vip Black",
-        category: "masculino",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Intenso, moderno e perfeito para a noite.",
-        image: "IMAGENS/212 Vip Black.jpg"
-    },
-     {
-        id: 36,
-        name: "Phantom",
-        category: "masculino",
-         occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "Aromático moderno com toque amadeirado elegante.",
-        image: "IMAGENS/Phantom.webp"
-    },
-    {
-        id: 37,
-        name: "Emper Legend",
-        category: "masculino",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "As notas de topo são: Flor de Laranjeira, Toranja, Limão e Alecrim.",
-        image: "IMAGENS/Emper Legend.webp"
-    },
-    {
-        id: 38,
-        name: "Lattafa Hala",
-        category: "masculino",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "As notas de topo são: Pimenta e Noz-moscada.",
-        image: "IMAGENS/Lattafa Hala.webp"
-    },
-     {
-        id: 39,
-        name: "Fakhar Black Kit",
-        category: "masculino",
-         occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "As notas de topo são: Maçã, Bergamota e Gengibre, Lavanda, Sálvia, Bagas de Zimbro e Gerânio",
-        image: "IMAGENS/Fakhar black Kit.webp"
-    },
-     {
-        id: 40,
-        name: "Fakhar Gold",
-        category: "unissex",
-         occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "As notas de topo são: Toranja, cardamomo, pimenta-rosa, tuberosa e sal. Âmbar,",
-        image: "IMAGENS/Fakhar Gold.webp"
-    },
-       {
-        id: 41,
-        name: "Fakhar Platin",
-        category: "masculino",
-           occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "As notas de topo são: topo de bergamota, pimenta rosa e cardamomo, um coração exótico de goiaba, lavanda e gengibre,",
-        image: "IMAGENS/Fakhar Platin.webp"
-    },
-       {
-        id: 42,
-        name: "Ferrari Black",
-        category: "masculino",
-           occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "As notas de topo são: amadeirado e cítrico com toque doce e especiado, combinando notas de maçã vermelha, baunilha e canela.",
-        image: "IMAGENS/Ferrari Black.webp"
-    },
-    {
-        id: 43,
-        name: "Asad Zanzibar",
-        category: "masculino",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "As notas de topo são: Lavanda e pimenta preta Água de coco, íris e sal, Baunilha e incenso",
-        image: "IMAGENS/ASAD ZANZIBAR.webp"
-    },
-      {
-        id: 44,
-        name: "Bleu de Chanel",
-        category: "masculino",
-          occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "As notas de topo são: fragrância amadeirada aromática com foco em notas cítricas, frescas e terrosas.",
-        image: "IMAGENS/Bleu de Chanel.webp"
-    },
+    id: 1,
+    name: "Pisa",
+    category: "masculino",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Cítrico • Amadeirado • Fresco",
+    image: "IMAGENS/PISA LATTAFA.webp"
+},
 {
-        id: 45,
-        name: "Animale For Man",
-        category: "masculino",
-        occasion: "A DEFINIR",      
-        price: 0.00,
-        description: "As notas de topo são: abertura fresca de limão e frésia com um coração de lavanda e gerânio, apoiado por uma base forte de couro, musgo de carvalho e vetiver.",
-        image: "IMAGENS/Animale perfum.webp"
-    },
-    {
-        id: 46,
-        name: "Liquid Brun",
-        category: "masculino",
-        occasion: "A DEFINIR",  
-        price: 0.00,
-        description: "As notas de topo são: Canela, Flor de Laranjeira, Cardamomo e Bergamota, Baunilha de Bourbon e Elemi.",
-        image: "IMAGENS/Liquid Brun.jpg"
-    },
-    
-
+    id: 2,
+    name: "Asad Elixir",
+    category: "masculino",
+    occasion: "noite",
+    price: 0.00,
+    description: "Especiado • Amadeirado • Intenso",
+    image: "IMAGENS/ASAD ELIXIR.webp"
+},
+{
+    id: 3,
+    name: "Sabah Al Ward",
+    category: "feminino",
+    occasion: "noite",
+    price: 0.00,
+    description: "Floral • Doce • Baunilhado",
+    image: "IMAGENS/Sabah Al Ward.webp"
+},
+{
+    id: 4,
+    name: "Fakhar Rose",
+    category: "feminino",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Floral • Frutado • Elegante",
+    image: "IMAGENS/Fakhar Rose.webp"
+},
+{
+    id: 5,
+    name: "Khamrah",
+    category: "unissex",
+    occasion: "noite",
+    price: 0.00,
+    description: "Doce • Especiado • Quente",
+    image: "IMAGENS/Khamrah.jpg"
+},
+{
+    id: 6,
+    name: "Club de Nuit",
+    category: "masculino",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Cítrico • Amadeirado • Marcante",
+    image: "IMAGENS/club de nuit.jpg"
+},
+{
+    id: 7,
+    name: "Musaman White",
+    category: "feminino",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Cremoso • Especiado • Amadeirado",
+    image: "IMAGENS/musaman.jpg"
+},
+{
+    id: 8,
+    name: "Afeef",
+    category: "unissex",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Frutado • Floral • Amadeirado",
+    image: "IMAGENS/afeef unisex.jpg"
+},
+{
+    id: 9,
+    name: "Khanjar",
+    category: "masculino",
+    occasion: "noite",
+    price: 0.00,
+    description: "Especiado • Couro • Defumado",
+    image: "IMAGENS/khanjar.jpg"
+},
+{
+    id: 10,
+    name: "Marina Bourbon",
+    category: "feminino",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Floral • Frutado • Adocicado",
+    image: "IMAGENS/marina bourbon.webp"
+},
+{
+    id: 11,
+    name: "Asad Yara Rose",
+    category: "feminino",
+    occasion: "dia",
+    price: 0.00,
+    description: "Floral • Frutado • Delicado",
+    image: "IMAGENS/YARA ROSE.webp"
+},
+{
+    id: 12,
+    name: "Asad Yara",
+    category: "feminino",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Doce • Cremoso • Floral",
+    image: "IMAGENS/lattafa yara normal.webp"
+},
+{
+    id: 13,
+    name: "Asad Yara Branco",
+    category: "feminino",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Floral • Cremoso • Elegante",
+    image: "IMAGENS/ASAD BRANCO.jpg"
+},
+{
+    id: 14,
+    name: "Asad Bourbon",
+    category: "unissex",
+    occasion: "noite",
+    price: 0.00,
+    description: "Baunilhado • Especiado • Amadeirado",
+    image: "IMAGENS/ASAD MARROM.jpg"
+},
+{
+    id: 15,
+    name: "Asad Tradicional",
+    category: "masculino",
+    occasion: "noite",
+    price: 0.00,
+    description: "Especiado • Ambarado • Amadeirado",
+    image: "IMAGENS/ASAD TRADICIONAL.webp"
+},
+{
+    id: 16,
+    name: "Rose Origami",
+    category: "unissex",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Floral • Rosado • Amadeirado",
+    image: "IMAGENS/ROSE ORIGAMI.jpg"
+},
+{
+    id: 17,
+    name: "Al Noble Wazzer",
+    category: "unissex",
+    occasion: "noite",
+    price: 0.00,
+    description: "Amadeirado • Especiado • Intenso",
+    image: "IMAGENS/al noble.webp"
+},
+{
+    id: 18,
+    name: "Al Noble Safeer",
+    category: "unissex",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Cítrico • Amadeirado • Especiado",
+    image: "IMAGENS/Al noble Safeer.webp"
+},
+{
+    id: 19,
+    name: "Al Noble Ameer",
+    category: "masculino",
+    occasion: "noite",
+    price: 0.00,
+    description: "Amadeirado • Especiado • Marcante",
+    image: "IMAGENS/Al noble Ameer.jpg"
+},
+{
+    id: 20,
+    name: "Asdaaf Ameerat",
+    category: "feminino",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Floral • Frutado • Adocicado",
+    image: "IMAGENS/Ameerat.webp"
+},
+{
+    id: 21,
+    name: "Silver Scent",
+    category: "masculino",
+    occasion: "noite",
+    price: 0.00,
+    description: "Aromático • Frutado • Amadeirado",
+    image: "IMAGENS/silver scent.jpg"
+},
+{
+    id: 22,
+    name: "Atheeri",
+    category: "feminino",
+    occasion: "dia",
+    price: 0.00,
+    description: "Floral • Cremoso • Delicado",
+    image: "IMAGENS/Atherri.webp"
+},
+{
+    id: 23,
+    name: "Calvin Klein",
+    category: "masculino",
+    occasion: "dia",
+    price: 0.00,
+    description: "Fresco • Aromático • Limpo",
+    image: "IMAGENS/Calvin Klein.webp"
+},
+{
+    id: 24,
+    name: "Britney Spears",
+    category: "feminino",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Doce • Frutado • Gourmand",
+    image: "IMAGENS/Fantasy Britney.webp"
+},
+{
+    id: 25,
+    name: "1 Million",
+    category: "masculino",
+    occasion: "noite",
+    price: 0.00,
+    description: "Doce • Especiado • Amadeirado",
+    image: "IMAGENS/1 million.webp"
+},
+{
+    id: 26,
+    name: "Lady Million",
+    category: "feminino",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Floral • Frutado • Adocicado",
+    image: "IMAGENS/Lady million.webp"
+},
+{
+    id: 27,
+    name: "Ferrari Red",
+    category: "masculino",
+    occasion: "dia",
+    price: 0.00,
+    description: "Cítrico • Fresco • Aromático",
+    image: "IMAGENS/Ferrari red.webp"
+},
+{
+    id: 28,
+    name: "Club N1",
+    category: "masculino",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Aromático • Amadeirado • Moderno",
+    image: "IMAGENS/Club N1.jpg"
+},
+{
+    id: 29,
+    name: "Tharwah Gold",
+    category: "feminino",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Floral • Baunilhado • Elegante",
+    image: "IMAGENS/Tharwah Gold.jpg"
+},
+{
+    id: 30,
+    name: "Vulcan Avenue",
+    category: "unissex",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Frutado • Amadeirado • Moderno",
+    image: "IMAGENS/Frech avenue.webp"
+},
+{
+    id: 31,
+    name: "Dalal",
+    category: "feminino",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Doce • Floral • Ambarado",
+    image: "IMAGENS/Latafa Dalal.webp"
+},
+{
+    id: 32,
+    name: "Invictus",
+    category: "masculino",
+    occasion: "dia",
+    price: 0.00,
+    description: "Aquático • Fresco • Aromático",
+    image: "IMAGENS/Invctus perfum.webp"
+},
+{
+    id: 33,
+    name: "Sauvage Dior",
+    category: "masculino",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Aromático • Fresco • Amadeirado",
+    image: "IMAGENS/Sauvage Dior.avif"
+},
+{
+    id: 34,
+    name: "Afnan 9pm",
+    category: "masculino",
+    occasion: "noite",
+    price: 0.00,
+    description: "Doce • Baunilhado • Especiado",
+    image: "IMAGENS/Afnan 9pm.webp"
+},
+{
+    id: 35,
+    name: "212 Vip Black",
+    category: "masculino",
+    occasion: "noite",
+    price: 0.00,
+    description: "Aromático • Doce • Especiado",
+    image: "IMAGENS/212 Vip Black.jpg"
+},
+{
+    id: 36,
+    name: "Phantom",
+    category: "masculino",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Aromático • Doce • Amadeirado",
+    image: "IMAGENS/Phantom.webp"
+},
+{
+    id: 37,
+    name: "Emper Legend",
+    category: "masculino",
+    occasion: "dia",
+    price: 0.00,
+    description: "Cítrico • Aromático • Fresco",
+    image: "IMAGENS/Emper Legend.webp"
+},
+{
+    id: 38,
+    name: "Lattafa Hala",
+    category: "masculino",
+    occasion: "noite",
+    price: 0.00,
+    description: "Especiado • Amadeirado • Quente",
+    image: "IMAGENS/Lattafa Hala.webp"
+},
+{
+    id: 39,
+    name: "Fakhar Black Kit",
+    category: "masculino",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Aromático • Frutado • Amadeirado",
+    image: "IMAGENS/Fakhar black Kit.webp"
+},
+{
+    id: 40,
+    name: "Fakhar Gold",
+    category: "unissex",
+    occasion: "noite",
+    price: 0.00,
+    description: "Floral • Ambarado • Especiado",
+    image: "IMAGENS/Fakhar Gold.webp"
+},
+{
+    id: 41,
+    name: "Fakhar Platin",
+    category: "masculino",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Frutado • Especiado • Aromático",
+    image: "IMAGENS/Fakhar Platin.webp"
+},
+{
+    id: 42,
+    name: "Ferrari Black",
+    category: "masculino",
+    occasion: "noite",
+    price: 0.00,
+    description: "Doce • Amadeirado • Especiado",
+    image: "IMAGENS/Ferrari Black.webp"
+},
+{
+    id: 43,
+    name: "Asad Zanzibar",
+    category: "masculino",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Cremoso • Especiado • Amadeirado",
+    image: "IMAGENS/ASAD ZANZIBAR.webp"
+},
+{
+    id: 44,
+    name: "Bleu de Chanel",
+    category: "masculino",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Cítrico • Aromático • Amadeirado",
+    image: "IMAGENS/Bleu de Chanel.webp"
+},
+{
+    id: 45,
+    name: "Animale For Man",
+    category: "masculino",
+    occasion: "versatil",
+    price: 0.00,
+    description: "Aromático • Couro • Amadeirado",
+    image: "IMAGENS/Animale perfum.webp"
+},
+{
+    id: 46,
+    name: "Liquid Brun",
+    category: "masculino",
+    occasion: "noite",
+    price: 0.00,
+    description: "Baunilhado • Especiado • Doce",
+    image: "IMAGENS/Liquid Brun.jpg"
+},
 
 ];
 
