@@ -13,29 +13,39 @@
 
 <body>
 
-    <header class="header">
-        <div class="logo">
-            <h1>JÉ</h1>
-            <p>Perfumes Importados</p>
+   <section class="hero-slider">
+
+    <div class="slide active">
+        <div class="slide-content">
+            <h2>Encontre sua nova essência</h2>
+            <p>Perfumes importados para todos os estilos.</p>
+
+            <a href="#catalogo" class="hero-btn">
+                Ver Catálogo
+            </a>
         </div>
-        <button class="cart-btn" onclick="toggleCart()">
-            <i class="fas fa-shopping-cart"></i>
-            <span id="cartCount">0</span>
-        </button>
-    </header>
-
-    <main>
-
-        <section class="hero">
-    <div class="hero-content">
-
-        <h2>Encontre sua nova essência</h2>
-
-        <a href="#catalogo" class="hero-btn">
-            Ver Catálogo
-        </a>
-
     </div>
+
+    <div class="slide">
+        <div class="slide-content">
+            <h2>Perfumes para todos os momentos</h2>
+            <p>Escolha sua fragrância ideal para cada ocasião.</p>
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="slide-content">
+            <h2>Dia, noite ou versátil</h2>
+            <p>Encontre o perfume que combina com você.</p>
+        </div>
+    </div>
+
+    <div class="slider-dots">
+        <span class="dot active" onclick="goToSlide(0)"></span>
+        <span class="dot" onclick="goToSlide(1)"></span>
+        <span class="dot" onclick="goToSlide(2)"></span>
+    </div>
+
 </section>
 
         <section class="categories">
