@@ -39,12 +39,15 @@ a {
     background: rgba(7, 7, 7, 0.96);
     border-bottom: 1px solid rgba(176, 141, 87, 0.55);
     padding: 14px 6%;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     position: sticky;
     top: 0;
     z-index: 100;
+
     backdrop-filter: blur(10px);
 }
 
@@ -110,13 +113,21 @@ a {
     position: relative;
     min-height: 570px;
     padding: 120px 20px;
+
     display: flex;
     align-items: center;
     justify-content: center;
+
     text-align: center;
     overflow: hidden;
+
     background:
-        linear-gradient(90deg, rgba(0,0,0,.92) 0%, rgba(0,0,0,.72) 50%, rgba(0,0,0,.88) 100%),
+        linear-gradient(
+            90deg,
+            rgba(0, 0, 0, .92) 0%,
+            rgba(0, 0, 0, .72) 50%,
+            rgba(0, 0, 0, .88) 100%
+        ),
         url("IMAGENS/fundo.jpg") center/cover no-repeat;
 }
 
@@ -124,7 +135,14 @@ a {
     content: "";
     position: absolute;
     inset: 0;
-    background: radial-gradient(circle at center, rgba(214,180,90,.09), transparent 48%);
+
+    background:
+        radial-gradient(
+            circle at center,
+            rgba(214, 180, 90, .09),
+            transparent 48%
+        );
+
     pointer-events: none;
 }
 
@@ -162,11 +180,11 @@ a {
     line-height: 1.02;
     letter-spacing: -1px;
     margin-bottom: 24px;
-    text-shadow: 0 5px 25px rgba(0,0,0,.85);
+    text-shadow: 0 5px 25px rgba(0, 0, 0, .85);
 }
 
 .hero p {
-    color: rgba(255,255,255,.84);
+    color: rgba(255, 255, 255, .84);
     font-size: 17px;
     line-height: 1.8;
     max-width: 650px;
@@ -192,7 +210,7 @@ a {
     background: var(--dourado);
     color: var(--preto);
     transform: translateY(-3px);
-    box-shadow: 0 12px 28px rgba(214,180,90,.18);
+    box-shadow: 0 12px 28px rgba(214, 180, 90, .18);
 }
 
 
@@ -252,16 +270,23 @@ a {
 .products-grid {
     max-width: 1200px;
     margin: auto;
+
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 25px;
+
     align-items: stretch;
 }
 
+
+/* CARD DO PERFUME */
+
 .product-card {
     background: linear-gradient(180deg, #181818 0%, #101010 100%);
+
     border: 1px solid rgba(176, 141, 87, 0.25);
     border-radius: 20px;
+
     padding: 12px;
     text-align: center;
     overflow: hidden;
@@ -282,9 +307,13 @@ a {
     box-shadow: 0 12px 32px rgba(214, 180, 90, 0.16);
 }
 
+
+/* IMAGEM DO PERFUME */
+
 .product-image {
     width: 100%;
     height: 280px;
+
     object-fit: contain;
 
     background: transparent;
@@ -299,12 +328,18 @@ a {
     transform: scale(1.03);
 }
 
+
+/* NOME */
+
 .product-card h3 {
     color: var(--dourado-claro);
     font-family: Georgia, serif;
     font-size: 22px;
     margin-bottom: 10px;
 }
+
+
+/* DESCRIÇÃO */
 
 .product-card p {
     color: var(--cinza);
@@ -314,6 +349,30 @@ a {
     flex-grow: 1;
 }
 
+
+/* OCASIÃO - DIA / NOITE / VERSÁTIL */
+
+.occasion-badge {
+    display: inline-block;
+    align-self: center;
+
+    margin-bottom: 14px;
+    padding: 6px 12px;
+
+    color: var(--dourado-claro);
+    background: rgba(214, 180, 90, 0.08);
+
+    border: 1px solid rgba(214, 180, 90, 0.35);
+    border-radius: 20px;
+
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+}
+
+
+/* VALOR */
+
 .product-card strong {
     display: block;
     color: var(--branco);
@@ -321,15 +380,23 @@ a {
     margin-bottom: 16px;
 }
 
+
+/* BOTÃO ADICIONAR */
+
 .product-card > button {
     width: 100%;
+
     background: var(--dourado);
     color: var(--preto);
+
     border: none;
     border-radius: 25px;
+
     padding: 12px;
+
     font-weight: bold;
     cursor: pointer;
+
     transition: 0.3s ease;
 }
 
@@ -343,16 +410,23 @@ a {
 
 .cart-sidebar {
     position: fixed;
+
     top: 0;
     right: -420px;
+
     width: 400px;
     max-width: 100%;
     height: 100vh;
+
     background: var(--preto-claro);
+
     z-index: 1000;
+
     display: flex;
     flex-direction: column;
+
     transition: right 0.3s ease;
+
     box-shadow: -10px 0 35px rgba(0, 0, 0, 0.5);
 }
 
@@ -362,7 +436,9 @@ a {
 
 .cart-header {
     padding: 20px;
+
     border-bottom: 1px solid var(--dourado);
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -376,9 +452,12 @@ a {
 .cart-header button {
     background: transparent;
     color: var(--branco);
+
     border: none;
+
     font-size: 22px;
     cursor: pointer;
+
     transition: 0.3s ease;
 }
 
@@ -395,10 +474,13 @@ a {
 
 .cart-item {
     background: #222222;
+
     border: 1px solid #333333;
     border-radius: 10px;
+
     padding: 14px;
     margin-bottom: 12px;
+
     display: flex;
     align-items: center;
     gap: 10px;
@@ -427,12 +509,16 @@ a {
 .cart-item > button {
     width: 28px;
     height: 28px;
+
     border: none;
     border-radius: 50%;
+
     background: var(--dourado);
     color: var(--preto);
+
     cursor: pointer;
     font-weight: bold;
+
     transition: 0.2s ease;
 }
 
@@ -459,20 +545,27 @@ a {
 .cart-footer p {
     display: flex;
     justify-content: space-between;
+
     font-size: 18px;
     margin-bottom: 18px;
 }
 
 .cart-footer > button {
     width: 100%;
+
     background: var(--verde);
     color: var(--branco);
+
     border: none;
     border-radius: 10px;
+
     padding: 14px;
+
     font-size: 16px;
     font-weight: bold;
+
     cursor: pointer;
+
     transition: 0.3s ease;
 }
 
@@ -487,10 +580,14 @@ a {
 .overlay {
     position: fixed;
     inset: 0;
+
     background: rgba(0, 0, 0, 0.72);
+
     opacity: 0;
     visibility: hidden;
+
     z-index: 999;
+
     transition: 0.3s ease;
 }
 
@@ -504,8 +601,11 @@ a {
 
 .footer {
     background: #050505;
+
     border-top: 1px solid var(--dourado);
+
     padding: 30px 20px;
+
     text-align: center;
 }
 
@@ -524,10 +624,12 @@ a {
     text-decoration: underline;
 }
 
+
 /* BOTÃO FLUTUANTE DO WHATSAPP */
 
 .whatsapp-float {
     position: fixed;
+
     right: 22px;
     bottom: 22px;
 
@@ -561,9 +663,12 @@ a {
     box-shadow: 0 12px 30px rgba(37, 211, 102, 0.28);
     filter: brightness(1.08);
 }
+
+
 /* TABLET */
 
 @media (max-width: 900px) {
+
     .hero h2 {
         font-size: 42px;
     }
@@ -577,6 +682,7 @@ a {
 /* CELULAR */
 
 @media (max-width: 600px) {
+
     .header {
         min-height: 78px;
         padding: 12px 18px;
@@ -658,12 +764,13 @@ a {
 
     .product-card {
         padding: 10px;
-        border-radius: 10px;
+        border-radius: 18px;
     }
 
     .product-image {
         height: 170px;
         margin-bottom: 12px;
+        border-radius: 14px;
     }
 
     .product-card h3 {
@@ -677,6 +784,12 @@ a {
         margin-bottom: 12px;
     }
 
+    .occasion-badge {
+        font-size: 10px;
+        padding: 5px 9px;
+        margin-bottom: 11px;
+    }
+
     .product-card strong {
         font-size: 17px;
         margin-bottom: 12px;
@@ -688,24 +801,26 @@ a {
     }
 
     .cart-sidebar {
-    width: 100%;
-    right: -100%;
-}
+        width: 100%;
+        right: -100%;
+    }
 
-.whatsapp-float {
-    width: 54px;
-    height: 54px;
-    right: 16px;
-    bottom: 16px;
-    font-size: 27px;
-}
+    .whatsapp-float {
+        width: 54px;
+        height: 54px;
 
+        right: 16px;
+        bottom: 16px;
+
+        font-size: 27px;
+    }
 }
 
 
 /* CELULAR PEQUENO */
 
 @media (max-width: 380px) {
+
     .products-grid {
         grid-template-columns: 1fr;
     }
