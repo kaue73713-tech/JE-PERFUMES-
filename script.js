@@ -9,6 +9,7 @@ const products = [
         id: 1,
         name: "Pisa",
         category: "masculino",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "Perfume masculino marcante e sofisticado.",
         image: "IMAGENS/PISA LATTAFA.webp"
@@ -17,6 +18,7 @@ const products = [
         id: 2,
         name: "Asad Elixir",
         category: "masculino",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "Fragrância intensa, elegante e envolvente.",
         image: "IMAGENS/ASAD ELIXIR.webp"
@@ -25,6 +27,7 @@ const products = [
         id: 3,
         name: "Sabah Al Ward",
         category: "feminino",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "Perfume feminino floral, doce e elegante.",
         image: "IMAGENS/Sabah Al Ward.webp"
@@ -41,6 +44,7 @@ const products = [
         id: 5,
         name: "Khamrah",
         category: "unissex",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "Perfume doce, quente e marcante.",
         image: "IMAGENS/Khamrah.jpg"
@@ -49,6 +53,7 @@ const products = [
         id: 6,
         name: "Club de Nuit",
         category: "masculino",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "Elegante, marcante e com excelente projeção.",
         image: "IMAGENS/club de nuit.jpg"
@@ -57,6 +62,7 @@ const products = [
         id: 7,
         name: "Musaman White",
         category: "feminino",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "Floral sofisticado, leve e muito refinado.",
         image: "IMAGENS/musaman.jpg"
@@ -65,6 +71,7 @@ const products = [
         id: 8,
         name: "Afeef",
         category: "unissex",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "Fragrância equilibrada, moderna e versátil para qualquer ocasião.",
         image: "IMAGENS/afeef unisex.jpg"
@@ -73,6 +80,7 @@ const products = [
         id: 9,
         name: "Khanjar",
         category: "masculino",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "Amadeirado intenso com personalidade marcante.",
         image: "IMAGENS/khanjar.jpg"
@@ -81,6 +89,7 @@ const products = [
         id: 10,
         name: "Marina Bourbon",
         category: "feminino",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "Doce, elegante e perfeito para ocasiões especiais.",
         image: "IMAGENS/marina bourbon.webp"
@@ -89,6 +98,7 @@ const products = [
         id: 11,
         name: "Asad Yara Rose",
         category: "feminino",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "Floral frutado delicado, romântico e envolvente.",
         image: "IMAGENS/YARA ROSE.webp"
@@ -97,6 +107,7 @@ const products = [
         id: 12,
         name: "Asad Yara",
         category: "feminino",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "Doce cremoso com toque floral e ótima fixação.",
         image: "IMAGENS/lattafa yara normal.webp"
@@ -105,6 +116,7 @@ const products = [
         id: 13,
         name: "Asad Yara Branco",
         category: "feminino",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "Aroma suave, elegante e extremamente feminino.",
         image: "IMAGENS/ASAD BRANCO.jpg"
@@ -113,6 +125,7 @@ const products = [
         id: 14,
         name: "Asad Bourbon",
         category: "unissex",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "Amadeirado sofisticado com excelente desempenho.",
         image: "IMAGENS/ASAD MARROM.jpg"
@@ -121,6 +134,7 @@ const products = [
         id: 15,
         name: "Asad Tradicional",
         category: "masculino",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "Especiado marcante com ótima projeção e fixação.",
         image: "IMAGENS/ASAD TRADICIONAL.webp"
@@ -129,6 +143,7 @@ const products = [
         id: 16,
         name: "Rose Origami",
         category: "unissex",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "Rosa sofisticada com toque moderno e refinado.",
         image: "IMAGENS/ROSE ORIGAMI.jpg"
@@ -137,6 +152,7 @@ const products = [
         id: 17,
         name: "Al Noble Wazzer",
         category: "unissex",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "Fragrância intensa, elegante e cheia de personalidade.",
         image: "IMAGENS/al noble.webp"
@@ -145,6 +161,7 @@ const products = [
         id: 18,
         name: "Al Noble Safeer",
         category: "unissex",
+         occasion: "A DEFINIR",  
         price: 0.00,
         description: "Aroma fresco e sofisticado para qualquer momento.",
         image: "IMAGENS/Al noble Safeer.webp"
@@ -153,6 +170,7 @@ const products = [
         id: 19,
         name: "Al Noble Ameer",
         category: "masculino",
+         occasion: "A DEFINIR",  
         price: 0.00,
         description: "Amadeirado marcante com elegância e potência.",
         image: "IMAGENS/Al noble Ameer.jpg"
@@ -161,6 +179,7 @@ const products = [
         id: 20,
         name: "Asdaaf Ameerat",
         category: "feminino",
+         occasion: "A DEFINIR",  
         price: 0.00,
         description: "Floral oriental delicado e muito sofisticado.",
         image: "IMAGENS/Ameerat.webp"
@@ -169,6 +188,7 @@ const products = [
         id: 21,
         name: "Silver Scent",
         category: "masculino",
+         occasion: "A DEFINIR",  
         price: 0.00,
         description: "Clássico masculino elegante e envolvente.",
         image: "IMAGENS/silver scent.jpg"
@@ -177,6 +197,7 @@ const products = [
         id: 22,
         name: "Atheeri",
         category: "feminino",
+         occasion: "A DEFINIR",  
         price: 0.00,
         description: "Floral moderno com aroma delicado e marcante.",
         image: "IMAGENS/Atherri.webp"
@@ -185,6 +206,7 @@ const products = [
         id: 23,
         name: "Calvin Klein",
         category: "masculino",
+         occasion: "A DEFINIR",  
         price: 0.00,
         description: "Fresco, elegante e ideal para o uso diário.",
         image: "IMAGENS/Calvin Klein.webp"
@@ -193,6 +215,7 @@ const products = [
         id: 24,
         name: "Britney Spears",
         category: "feminino",
+         occasion: "A DEFINIR",  
         price: 0.00,
         description: "Doce, divertido e irresistivelmente feminino.",
         image: "IMAGENS/Fantasy Britney.webp"
@@ -201,6 +224,7 @@ const products = [
         id: 25,
         name: "1 Million",
         category: "masculino",
+         occasion: "A DEFINIR",  
         price: 0.00,
         description: "Amadeirado adocicado, luxuoso e marcante.",
         image: "IMAGENS/1 million.webp"
@@ -209,6 +233,7 @@ const products = [
         id: 26,
         name: "Lady Million",
         category: "feminino",
+         occasion: "A DEFINIR",  
         price: 0.00,
         description: "Floral sofisticado com toque adocicado elegante.",
         image: "IMAGENS/Lady million.webp"
@@ -217,6 +242,7 @@ const products = [
         id: 27,
         name: "Ferrari Red",
         category: "masculino",
+         occasion: "A DEFINIR",  
         price: 0.00,
         description: "Refrescante, vibrante e cheio de personalidade.",
         image: "IMAGENS/Ferrari red.webp"
@@ -225,6 +251,7 @@ const products = [
         id: 28,
         name: "Club N1",
         category: "masculino",
+         occasion: "A DEFINIR",  
         price: 0.00,
         description: "Masculino moderno com excelente presença.",
         image: "IMAGENS/Club N1.jpg"
@@ -233,6 +260,7 @@ const products = [
         id: 29,
         name: "Tharwah Gold",
         category: "feminino",
+         occasion: "A DEFINIR",  
         price: 0.00,
         description: "Doce sofisticado com toque oriental envolvente.",
         image: "IMAGENS/Tharwah Gold.jpg"
@@ -241,6 +269,7 @@ const products = [
         id: 30,
         name: "Vulcan Avenue",
         category: "unissex",
+         occasion: "A DEFINIR",  
         price: 0.00,
         description: "Amadeirado moderno, intenso e versátil.",
         image: "IMAGENS/Frech avenue.webp"
@@ -249,6 +278,7 @@ const products = [
         id: 31,
         name: "Dalal",
         category: "feminino",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "Doce oriental delicado e muito elegante.",
         image: "IMAGENS/Latafa Dalal.webp"
@@ -257,6 +287,7 @@ const products = [
         id: 32,
         name: "Invictus",
         category: "masculino",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "Fresco aquático com excelente desempenho.",
         image: "IMAGENS/Invctus perfum.webp"
@@ -265,6 +296,7 @@ const products = [
         id: 33,
         name: "Sauvage Dior",
         category: "masculino",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "Amadeirado aromático, intenso e sofisticado.",
         image: "IMAGENS/Sauvage Dior.avif"
@@ -273,6 +305,7 @@ const products = [
         id: 34,
         name: "Afnan 9pm",
         category: "masculino",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "Doce especiado com ótima projeção e fixação.",
         image: "IMAGENS/Afnan 9pm.webp"
@@ -281,6 +314,7 @@ const products = [
         id: 35,
         name: "212 Vip Black",
         category: "masculino",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "Intenso, moderno e perfeito para a noite.",
         image: "IMAGENS/212 Vip Black.jpg"
@@ -289,6 +323,7 @@ const products = [
         id: 36,
         name: "Phantom",
         category: "masculino",
+         occasion: "A DEFINIR",  
         price: 0.00,
         description: "Aromático moderno com toque amadeirado elegante.",
         image: "IMAGENS/Phantom.webp"
@@ -297,6 +332,7 @@ const products = [
         id: 37,
         name: "Emper Legend",
         category: "masculino",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "As notas de topo são: Flor de Laranjeira, Toranja, Limão e Alecrim.",
         image: "IMAGENS/Emper Legend.webp"
@@ -305,6 +341,7 @@ const products = [
         id: 38,
         name: "Lattafa Hala",
         category: "masculino",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "As notas de topo são: Pimenta e Noz-moscada.",
         image: "IMAGENS/Lattafa Hala.webp"
@@ -313,6 +350,7 @@ const products = [
         id: 39,
         name: "Fakhar Black Kit",
         category: "masculino",
+         occasion: "A DEFINIR",  
         price: 0.00,
         description: "As notas de topo são: Maçã, Bergamota e Gengibre, Lavanda, Sálvia, Bagas de Zimbro e Gerânio",
         image: "IMAGENS/Fakhar black Kit.webp"
@@ -321,6 +359,7 @@ const products = [
         id: 40,
         name: "Fakhar Gold",
         category: "unissex",
+         occasion: "A DEFINIR",  
         price: 0.00,
         description: "As notas de topo são: Toranja, cardamomo, pimenta-rosa, tuberosa e sal. Âmbar,",
         image: "IMAGENS/Fakhar Gold.webp"
@@ -329,6 +368,7 @@ const products = [
         id: 41,
         name: "Fakhar Platin",
         category: "masculino",
+           occasion: "A DEFINIR",  
         price: 0.00,
         description: "As notas de topo são: topo de bergamota, pimenta rosa e cardamomo, um coração exótico de goiaba, lavanda e gengibre,",
         image: "IMAGENS/Fakhar Platin.webp"
@@ -337,6 +377,7 @@ const products = [
         id: 42,
         name: "Ferrari Black",
         category: "masculino",
+           occasion: "A DEFINIR",  
         price: 0.00,
         description: "As notas de topo são: amadeirado e cítrico com toque doce e especiado, combinando notas de maçã vermelha, baunilha e canela.",
         image: "IMAGENS/Ferrari Black.webp"
@@ -345,6 +386,7 @@ const products = [
         id: 43,
         name: "Asad Zanzibar",
         category: "masculino",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "As notas de topo são: Lavanda e pimenta preta Água de coco, íris e sal, Baunilha e incenso",
         image: "IMAGENS/ASAD ZANZIBAR.webp"
@@ -353,6 +395,7 @@ const products = [
         id: 44,
         name: "Bleu de Chanel",
         category: "masculino",
+          occasion: "A DEFINIR",  
         price: 0.00,
         description: "As notas de topo são: fragrância amadeirada aromática com foco em notas cítricas, frescas e terrosas.",
         image: "IMAGENS/Bleu de Chanel.webp"
@@ -361,6 +404,7 @@ const products = [
         id: 45,
         name: "Animale For Man",
         category: "masculino",
+        occasion: "A DEFINIR",      
         price: 0.00,
         description: "As notas de topo são: abertura fresca de limão e frésia com um coração de lavanda e gerânio, apoiado por uma base forte de couro, musgo de carvalho e vetiver.",
         image: "IMAGENS/Animale perfum.webp"
@@ -369,6 +413,7 @@ const products = [
         id: 46,
         name: "Liquid Brun",
         category: "masculino",
+        occasion: "A DEFINIR",  
         price: 0.00,
         description: "As notas de topo são: Canela, Flor de Laranjeira, Cardamomo e Bergamota, Baunilha de Bourbon e Elemi.",
         image: "IMAGENS/Liquid Brun.jpg"
@@ -388,11 +433,19 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Mostrar os produtos
+// Mostrar os produtos
 function renderProducts(productList) {
     const grid = document.getElementById("productsGrid");
 
+    const occasionInfo = {
+        dia: "☀️ Dia",
+        noite: "🌙 Noite",
+        versatil: "✨ Versátil"
+    };
+
     grid.innerHTML = productList.map(product => `
         <article class="product-card">
+
             <img
                 src="${product.image}"
                 alt="${product.name}"
@@ -403,6 +456,11 @@ function renderProducts(productList) {
 
             <p>${product.description}</p>
 
+            ${product.occasion && occasionInfo[product.occasion]
+                ? `<span class="occasion-badge">${occasionInfo[product.occasion]}</span>`
+                : ""
+            }
+
             <strong>
                 Consulte o Valor
             </strong>
@@ -411,6 +469,7 @@ function renderProducts(productList) {
                 <i class="fas fa-shopping-cart"></i>
                 Adicionar
             </button>
+
         </article>
     `).join("");
 }
