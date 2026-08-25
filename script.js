@@ -9,7 +9,7 @@ const products = [
         id: 1,
         name: "Pisa",
         category: "masculino",
-        occasion: "A DEFINIR",  
+        occasion: "NOITE",  
         price: 0.00,
         description: "Perfume masculino marcante e sofisticado.",
         image: "IMAGENS/PISA LATTAFA.webp"
@@ -18,7 +18,7 @@ const products = [
         id: 2,
         name: "Asad Elixir",
         category: "masculino",
-        occasion: "A DEFINIR",  
+        occasion: "DIA",  
         price: 0.00,
         description: "Fragrância intensa, elegante e envolvente.",
         image: "IMAGENS/ASAD ELIXIR.webp"
