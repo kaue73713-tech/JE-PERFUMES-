@@ -8,50 +8,144 @@
     <title>JÉ Perfumes Importados</title>
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    >
 </head>
 
 <body>
 
-   <section class="hero-slider">
+    <!-- ========================= -->
+    <!-- CABEÇALHO -->
+    <!-- ========================= -->
 
-    <div class="slide active">
-        <div class="slide-content">
-            <h2>Encontre sua nova essência</h2>
-            <p>Perfumes importados para todos os estilos.</p>
+    <header class="header">
 
-            <a href="#catalogo" class="hero-btn">
-                Ver Catálogo
-            </a>
+        <div class="logo">
+            <h1>JÉ</h1>
+            <p>Perfumes Importados</p>
         </div>
-    </div>
 
-    <div class="slide">
-        <div class="slide-content">
-            <h2>Perfumes para todos os momentos</h2>
-            <p>Escolha sua fragrância ideal para cada ocasião.</p>
-        </div>
-    </div>
+        <button
+            class="cart-btn"
+            onclick="toggleCart()"
+            aria-label="Abrir carrinho"
+        >
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cartCount">0</span>
+        </button>
 
-    <div class="slide">
-        <div class="slide-content">
-            <h2>Dia, noite ou versátil</h2>
-            <p>Encontre o perfume que combina com você.</p>
-        </div>
-    </div>
+    </header>
 
-    <div class="slider-dots">
-        <span class="dot active" onclick="goToSlide(0)"></span>
-        <span class="dot" onclick="goToSlide(1)"></span>
-        <span class="dot" onclick="goToSlide(2)"></span>
-    </div>
 
-</section>
+    <main>
+
+        <!-- ========================= -->
+        <!-- CARROSSEL DO TOPO -->
+        <!-- ========================= -->
+
+        <section class="hero-slider">
+
+            <!-- SLIDE 1 -->
+
+            <div class="slide active">
+
+                <div class="slide-content">
+
+                    <h2>
+                        Encontre sua nova essência
+                    </h2>
+
+                    <p>
+                        Perfumes importados para todos os estilos.
+                    </p>
+
+                    <a
+                        href="#catalogo"
+                        class="hero-btn"
+                    >
+                        Ver Catálogo
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- SLIDE 2 -->
+
+            <div class="slide">
+
+                <div class="slide-content">
+
+                    <h2>
+                        Perfumes para todos os momentos
+                    </h2>
+
+                    <p>
+                        Escolha sua fragrância ideal para cada ocasião.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- SLIDE 3 -->
+
+            <div class="slide">
+
+                <div class="slide-content">
+
+                    <h2>
+                        Dia, noite ou versátil
+                    </h2>
+
+                    <p>
+                        Encontre o perfume que combina com você.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- BOLINHAS DO CARROSSEL -->
+
+            <div class="slider-dots">
+
+                <span
+                    class="dot active"
+                    onclick="goToSlide(0)"
+                ></span>
+
+                <span
+                    class="dot"
+                    onclick="goToSlide(1)"
+                ></span>
+
+                <span
+                    class="dot"
+                    onclick="goToSlide(2)"
+                ></span>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================= -->
+        <!-- CATEGORIAS -->
+        <!-- ========================= -->
 
         <section class="categories">
+
             <h2>Categorias</h2>
 
             <div class="filters">
+
                 <button onclick="filterProducts('todos')">
                     Todos
                 </button>
@@ -67,68 +161,149 @@
                 <button onclick="filterProducts('unissex')">
                     Unissex
                 </button>
+
             </div>
+
         </section>
 
-        <section class="products-section" id="catalogo">
+
+        <!-- ========================= -->
+        <!-- PRODUTOS -->
+        <!-- ========================= -->
+
+        <section
+            class="products-section"
+            id="catalogo"
+        >
+
             <h2>Nossos perfumes</h2>
 
-            <div class="products-grid" id="productsGrid">
-                <!-- Os produtos serão adicionados pelo JavaScript -->
+            <div
+                class="products-grid"
+                id="productsGrid"
+            >
+                <!--
+                    Os produtos são adicionados
+                    automaticamente pelo JavaScript
+                -->
             </div>
+
         </section>
 
     </main>
 
-    <aside class="cart-sidebar" id="cartSidebar">
+
+    <!-- ========================= -->
+    <!-- CARRINHO LATERAL -->
+    <!-- ========================= -->
+
+    <aside
+        class="cart-sidebar"
+        id="cartSidebar"
+    >
 
         <div class="cart-header">
+
             <h2>Seu carrinho</h2>
 
-            <button onclick="toggleCart()">
+            <button
+                onclick="toggleCart()"
+                aria-label="Fechar carrinho"
+            >
                 <i class="fas fa-times"></i>
             </button>
+
         </div>
+
 
         <div id="cartItems">
-            <p>Seu carrinho está vazio.</p>
+
+            <p>
+                Seu carrinho está vazio.
+            </p>
+
         </div>
 
+
         <div class="cart-footer">
+
             <p>
                 Total:
-                <strong id="totalPrice">R$ 0,00</strong>
+
+                <strong id="totalPrice">
+                    R$ 0,00
+                </strong>
             </p>
 
             <button onclick="sendToWhatsApp()">
+
                 <i class="fab fa-whatsapp"></i>
+
                 Enviar pelo WhatsApp
+
             </button>
+
         </div>
 
     </aside>
 
-    <div class="overlay" id="overlay" onclick="toggleCart()">
-    </div>
+
+    <!-- ========================= -->
+    <!-- FUNDO ESCURO DO CARRINHO -->
+    <!-- ========================= -->
+
+    <div
+        class="overlay"
+        id="overlay"
+        onclick="toggleCart()"
+    ></div>
+
+
+    <!-- ========================= -->
+    <!-- RODAPÉ -->
+    <!-- ========================= -->
 
     <footer class="footer">
-        <p>© 2026 JÉ Perfumes Importados</p>
 
-        <a href="https://wa.me/5545999299109" target="_blank" rel="noopener noreferrer">
+        <p>
+            © 2026 JÉ Perfumes Importados
+        </p>
+
+        <a
+            href="https://wa.me/5545999299109"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+
             <i class="fab fa-whatsapp"></i>
+
             WhatsApp
+
         </a>
+
     </footer>
 
-    <a 
+
+    <!-- ========================= -->
+    <!-- WHATSAPP FLUTUANTE -->
+    <!-- ========================= -->
+
+    <a
         href="https://wa.me/5545999299109?text=Olá!%20Vim%20pelo%20catálogo%20da%20JÉ%20Perfumes%20e%20gostaria%20de%20tirar%20uma%20dúvida."
         class="whatsapp-float"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Falar no WhatsApp"
     >
+
         <i class="fab fa-whatsapp"></i>
+
     </a>
+
+
+    <!-- ========================= -->
+    <!-- JAVASCRIPT -->
+    <!-- ========================= -->
 
     <script src="script.js"></script>
 
