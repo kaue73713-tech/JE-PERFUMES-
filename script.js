@@ -1031,6 +1031,20 @@ const clientesJE = [
 
     "IMAGENS/cliente4.png"
 
+    "IMAGENS/cliente5.png"
+
+    "IMAGENS/cliente6.png"
+
+    "IMAGENS/cliente7.png"
+
+    "IMAGENS/cliente8.png"
+
+    "IMAGENS/cliente9.png"
+
+    "IMAGENS/cliente10.png"
+
+    "IMAGENS/cliente11.png"
+
 ];
 
 
