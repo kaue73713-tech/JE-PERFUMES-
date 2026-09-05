@@ -48,7 +48,10 @@
 
         <section class="hero-slider">
 
+
+            <!-- ========================= -->
             <!-- SLIDE 1 -->
+            <!-- ========================= -->
 
             <div class="slide active">
 
@@ -74,7 +77,9 @@
             </div>
 
 
+            <!-- ========================= -->
             <!-- SLIDE 2 -->
+            <!-- ========================= -->
 
             <div class="slide">
 
@@ -93,7 +98,9 @@
             </div>
 
 
+            <!-- ========================= -->
             <!-- SLIDE 3 -->
+            <!-- ========================= -->
 
             <div class="slide">
 
@@ -112,7 +119,9 @@
             </div>
 
 
+            <!-- ========================= -->
             <!-- SLIDE 4 - CLIENTES JÉ -->
+            <!-- ========================= -->
 
             <div class="slide client-slide">
 
@@ -126,11 +135,45 @@
                         Quem já encontrou sua nova essência ✨
                     </p>
 
-                    <img
-                        src="IMAGENS/cliente1.png"
-                        alt="Cliente JÉ"
-                        class="client-slide-image"
-                    >
+
+                    <!-- FOTOS DOS CLIENTES -->
+
+                    <div class="client-photo-area">
+
+                        <!-- SETA ESQUERDA -->
+
+                        <button
+                            class="client-arrow"
+                            onclick="prevClient()"
+                            aria-label="Cliente anterior"
+                        >
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+
+
+                        <!-- IMAGEM -->
+                        <!-- O JAVASCRIPT VAI TROCAR ESTA FOTO -->
+
+                        <img
+                            id="clientPhoto"
+                            src="IMAGENS/cliente1.png"
+                            alt="Cliente JÉ"
+                            class="client-slide-image"
+                        >
+
+
+                        <!-- SETA DIREITA -->
+
+                        <button
+                            class="client-arrow"
+                            onclick="nextClient()"
+                            aria-label="Próximo cliente"
+                        >
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+
+                    </div>
+
 
                     <p class="client-slide-thanks">
                         Obrigado pela confiança!
@@ -178,7 +221,9 @@
 
         <section class="categories">
 
-            <h2>Categorias</h2>
+            <h2>
+                Categorias
+            </h2>
 
             <div class="filters">
 
@@ -212,13 +257,20 @@
             id="catalogo"
         >
 
-            <h2>Nossos perfumes</h2>
+            <h2>
+                Nossos perfumes
+            </h2>
 
             <div
                 class="products-grid"
                 id="productsGrid"
             >
-                <!-- Os produtos são adicionados pelo JavaScript -->
+
+                <!--
+                    Os produtos são adicionados
+                    automaticamente pelo JavaScript
+                -->
+
             </div>
 
         </section>
@@ -237,7 +289,9 @@
 
         <div class="cart-header">
 
-            <h2>Seu carrinho</h2>
+            <h2>
+                Seu carrinho
+            </h2>
 
             <button
                 onclick="toggleCart()"
