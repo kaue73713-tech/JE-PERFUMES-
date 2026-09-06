@@ -853,19 +853,26 @@ function prevClient() {
     showClient(currentClient - 1);
 }
 // =========================
-// MÚSICA DO SITE
+// MÚSICA DE FUNDO
 // =========================
 
 const bgMusic = document.getElementById("bgMusic");
 
-bgMusic.volume = 0.20;
+function iniciarMusica() {
 
-function startMusic() {
-    bgMusic.play().catch(() => {});
+    if (!bgMusic) {
+        return;
+    }
 
-    document.removeEventListener("click", startMusic);
-    document.removeEventListener("touchstart", startMusic);
+    bgMusic.volume = 0.20;
+
+    bgMusic.play()
+        .then(() => {
+            document.removeEventListener("click", iniciarMusica);
+            document.removeEventListener("touchstart", iniciarMusica);
+        })
+        .catch(() => {});
 }
 
-document.addEventListener("click", startMusic);
-document.addEventListener("touchstart", startMusic);
+document.addEventListener("click", iniciarMusica);
+document.addEventListener("touchstart", iniciarMusica);
