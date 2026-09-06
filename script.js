@@ -1,7 +1,4 @@
-// =========================
-// WHATSAPP
-// =========================
-
+// Número do WhatsApp com código do Brasil
 const WHATSAPP_NUMBER = "5545999299109";
 
 
@@ -10,7 +7,6 @@ const WHATSAPP_NUMBER = "5545999299109";
 // =========================
 
 const products = [
-
     {
         id: 1,
         name: "Pisa",
@@ -20,7 +16,6 @@ const products = [
         description: "Cítrico • Amadeirado • Fresco",
         image: "IMAGENS/PISA LATTAFA.webp"
     },
-
     {
         id: 2,
         name: "Asad Elixir",
@@ -30,7 +25,6 @@ const products = [
         description: "Especiado • Amadeirado • Intenso",
         image: "IMAGENS/ASAD ELIXIR.webp"
     },
-
     {
         id: 3,
         name: "Sabah Al Ward",
@@ -40,7 +34,6 @@ const products = [
         description: "Floral • Doce • Baunilhado",
         image: "IMAGENS/Sabah Al Ward.webp"
     },
-
     {
         id: 4,
         name: "Fakhar Rose",
@@ -50,7 +43,6 @@ const products = [
         description: "Floral • Frutado • Elegante",
         image: "IMAGENS/Fakhar Rose.webp"
     },
-
     {
         id: 5,
         name: "Khamrah",
@@ -60,7 +52,6 @@ const products = [
         description: "Doce • Especiado • Quente",
         image: "IMAGENS/Khamrah.jpg"
     },
-
     {
         id: 6,
         name: "Club de Nuit",
@@ -70,7 +61,6 @@ const products = [
         description: "Cítrico • Amadeirado • Marcante",
         image: "IMAGENS/club de nuit.jpg"
     },
-
     {
         id: 7,
         name: "Musaman White",
@@ -80,7 +70,6 @@ const products = [
         description: "Cremoso • Especiado • Amadeirado",
         image: "IMAGENS/musaman.jpg"
     },
-
     {
         id: 8,
         name: "Afeef",
@@ -90,7 +79,6 @@ const products = [
         description: "Frutado • Floral • Amadeirado",
         image: "IMAGENS/afeef unisex.jpg"
     },
-
     {
         id: 9,
         name: "Khanjar",
@@ -100,7 +88,6 @@ const products = [
         description: "Especiado • Couro • Defumado",
         image: "IMAGENS/khanjar.jpg"
     },
-
     {
         id: 10,
         name: "Marina Bourbon",
@@ -110,7 +97,6 @@ const products = [
         description: "Floral • Frutado • Adocicado",
         image: "IMAGENS/marina bourbon.webp"
     },
-
     {
         id: 11,
         name: "Asad Yara Rose",
@@ -120,7 +106,6 @@ const products = [
         description: "Floral • Frutado • Delicado",
         image: "IMAGENS/YARA ROSE.webp"
     },
-
     {
         id: 12,
         name: "Asad Yara",
@@ -130,7 +115,6 @@ const products = [
         description: "Doce • Cremoso • Floral",
         image: "IMAGENS/lattafa yara normal.webp"
     },
-
     {
         id: 13,
         name: "Asad Yara Branco",
@@ -140,7 +124,6 @@ const products = [
         description: "Floral • Cremoso • Elegante",
         image: "IMAGENS/ASAD BRANCO.jpg"
     },
-
     {
         id: 14,
         name: "Asad Bourbon",
@@ -150,7 +133,6 @@ const products = [
         description: "Baunilhado • Especiado • Amadeirado",
         image: "IMAGENS/ASAD MARROM.jpg"
     },
-
     {
         id: 15,
         name: "Asad Tradicional",
@@ -160,7 +142,6 @@ const products = [
         description: "Especiado • Ambarado • Amadeirado",
         image: "IMAGENS/ASAD TRADICIONAL.webp"
     },
-
     {
         id: 16,
         name: "Rose Origami",
@@ -170,7 +151,6 @@ const products = [
         description: "Floral • Rosado • Amadeirado",
         image: "IMAGENS/ROSE ORIGAMI.jpg"
     },
-
     {
         id: 17,
         name: "Al Noble Wazzer",
@@ -180,7 +160,6 @@ const products = [
         description: "Amadeirado • Especiado • Intenso",
         image: "IMAGENS/al noble.webp"
     },
-
     {
         id: 18,
         name: "Al Noble Safeer",
@@ -190,7 +169,6 @@ const products = [
         description: "Cítrico • Amadeirado • Especiado",
         image: "IMAGENS/Al noble Safeer.webp"
     },
-
     {
         id: 19,
         name: "Al Noble Ameer",
@@ -200,7 +178,6 @@ const products = [
         description: "Amadeirado • Especiado • Marcante",
         image: "IMAGENS/Al noble Ameer.jpg"
     },
-
     {
         id: 20,
         name: "Asdaaf Ameerat",
@@ -210,7 +187,6 @@ const products = [
         description: "Floral • Frutado • Adocicado",
         image: "IMAGENS/Ameerat.webp"
     },
-
     {
         id: 21,
         name: "Silver Scent",
@@ -220,7 +196,6 @@ const products = [
         description: "Aromático • Frutado • Amadeirado",
         image: "IMAGENS/silver scent.jpg"
     },
-
     {
         id: 22,
         name: "Atheeri",
@@ -230,7 +205,6 @@ const products = [
         description: "Floral • Cremoso • Delicado",
         image: "IMAGENS/Atherri.webp"
     },
-
     {
         id: 23,
         name: "Calvin Klein",
@@ -240,7 +214,6 @@ const products = [
         description: "Fresco • Aromático • Limpo",
         image: "IMAGENS/Calvin Klein.webp"
     },
-
     {
         id: 24,
         name: "Britney Spears",
@@ -250,7 +223,6 @@ const products = [
         description: "Doce • Frutado • Gourmand",
         image: "IMAGENS/Fantasy Britney.webp"
     },
-
     {
         id: 25,
         name: "1 Million",
@@ -260,7 +232,6 @@ const products = [
         description: "Doce • Especiado • Amadeirado",
         image: "IMAGENS/1 million.webp"
     },
-
     {
         id: 26,
         name: "Lady Million",
@@ -270,7 +241,6 @@ const products = [
         description: "Floral • Frutado • Adocicado",
         image: "IMAGENS/Lady million.webp"
     },
-
     {
         id: 27,
         name: "Ferrari Red",
@@ -280,7 +250,6 @@ const products = [
         description: "Cítrico • Fresco • Aromático",
         image: "IMAGENS/Ferrari red.webp"
     },
-
     {
         id: 28,
         name: "Club N1",
@@ -290,7 +259,6 @@ const products = [
         description: "Aromático • Amadeirado • Moderno",
         image: "IMAGENS/Club N1.jpg"
     },
-
     {
         id: 29,
         name: "Tharwah Gold",
@@ -300,7 +268,6 @@ const products = [
         description: "Floral • Baunilhado • Elegante",
         image: "IMAGENS/Tharwah Gold.jpg"
     },
-
     {
         id: 30,
         name: "Vulcan Avenue",
@@ -310,7 +277,6 @@ const products = [
         description: "Frutado • Amadeirado • Moderno",
         image: "IMAGENS/Frech avenue.webp"
     },
-
     {
         id: 31,
         name: "Dalal",
@@ -320,7 +286,6 @@ const products = [
         description: "Doce • Floral • Ambarado",
         image: "IMAGENS/Latafa Dalal.webp"
     },
-
     {
         id: 32,
         name: "Invictus",
@@ -330,7 +295,6 @@ const products = [
         description: "Aquático • Fresco • Aromático",
         image: "IMAGENS/Invctus perfum.webp"
     },
-
     {
         id: 33,
         name: "Sauvage Dior",
@@ -340,7 +304,6 @@ const products = [
         description: "Aromático • Fresco • Amadeirado",
         image: "IMAGENS/Sauvage Dior.avif"
     },
-
     {
         id: 34,
         name: "Afnan 9pm",
@@ -350,7 +313,6 @@ const products = [
         description: "Doce • Baunilhado • Especiado",
         image: "IMAGENS/Afnan 9pm.webp"
     },
-
     {
         id: 35,
         name: "212 Vip Black",
@@ -360,7 +322,6 @@ const products = [
         description: "Aromático • Doce • Especiado",
         image: "IMAGENS/212 Vip Black.jpg"
     },
-
     {
         id: 36,
         name: "Phantom",
@@ -370,7 +331,6 @@ const products = [
         description: "Aromático • Doce • Amadeirado",
         image: "IMAGENS/Phantom.webp"
     },
-
     {
         id: 37,
         name: "Emper Legend",
@@ -380,7 +340,6 @@ const products = [
         description: "Cítrico • Aromático • Fresco",
         image: "IMAGENS/Emper Legend.webp"
     },
-
     {
         id: 38,
         name: "Lattafa Hala",
@@ -390,7 +349,6 @@ const products = [
         description: "Especiado • Amadeirado • Quente",
         image: "IMAGENS/Lattafa Hala.webp"
     },
-
     {
         id: 39,
         name: "Fakhar Black Kit",
@@ -400,7 +358,6 @@ const products = [
         description: "Aromático • Frutado • Amadeirado",
         image: "IMAGENS/Fakhar black Kit.webp"
     },
-
     {
         id: 40,
         name: "Fakhar Gold",
@@ -410,7 +367,6 @@ const products = [
         description: "Floral • Ambarado • Especiado",
         image: "IMAGENS/Fakhar Gold.webp"
     },
-
     {
         id: 41,
         name: "Fakhar Platin",
@@ -420,7 +376,6 @@ const products = [
         description: "Frutado • Especiado • Aromático",
         image: "IMAGENS/Fakhar Platin.webp"
     },
-
     {
         id: 42,
         name: "Ferrari Black",
@@ -430,7 +385,6 @@ const products = [
         description: "Doce • Amadeirado • Especiado",
         image: "IMAGENS/Ferrari Black.webp"
     },
-
     {
         id: 43,
         name: "Asad Zanzibar",
@@ -440,7 +394,6 @@ const products = [
         description: "Cremoso • Especiado • Amadeirado",
         image: "IMAGENS/ASAD ZANZIBAR.webp"
     },
-
     {
         id: 44,
         name: "Bleu de Chanel",
@@ -450,7 +403,6 @@ const products = [
         description: "Cítrico • Aromático • Amadeirado",
         image: "IMAGENS/Bleu de Chanel.webp"
     },
-
     {
         id: 45,
         name: "Animale For Man",
@@ -460,7 +412,6 @@ const products = [
         description: "Aromático • Couro • Amadeirado",
         image: "IMAGENS/Animale perfum.webp"
     },
-
     {
         id: 46,
         name: "Liquid Brun",
@@ -470,7 +421,6 @@ const products = [
         description: "Baunilhado • Especiado • Doce",
         image: "IMAGENS/Liquid Brun.jpg"
     }
-
 ];
 
 
@@ -481,19 +431,10 @@ const products = [
 let cart = [];
 
 
-// =========================
-// QUANDO A PÁGINA CARREGAR
-// =========================
-
+// Quando a página carregar
 document.addEventListener("DOMContentLoaded", () => {
-
     renderProducts(products);
-
     loadCart();
-
-    // Mostra a primeira foto dos clientes
-    showClient(0);
-
 });
 
 
@@ -512,7 +453,6 @@ function renderProducts(productList) {
     };
 
     grid.innerHTML = productList.map(product => `
-
         <article class="product-card">
 
             <img
@@ -521,22 +461,16 @@ function renderProducts(productList) {
                 class="product-image"
             >
 
-            <h3>
-                ${product.name}
-            </h3>
+            <h3>${product.name}</h3>
 
-            <p>
-                ${product.description}
-            </p>
+            <p>${product.description}</p>
 
             ${
                 product.occasion && occasionInfo[product.occasion]
-
-                ? `<span class="occasion-badge">
-                    ${occasionInfo[product.occasion]}
-                   </span>`
-
-                : ""
+                    ? `<span class="occasion-badge">
+                        ${occasionInfo[product.occasion]}
+                       </span>`
+                    : ""
             }
 
             <strong>
@@ -544,41 +478,31 @@ function renderProducts(productList) {
             </strong>
 
             <button onclick="addToCart(${product.id})">
-
                 <i class="fas fa-shopping-cart"></i>
-
                 Adicionar
-
             </button>
 
         </article>
-
     `).join("");
-
 }
 
 
 // =========================
-// FILTRAR PRODUTOS
+// FILTRAR POR CATEGORIA
 // =========================
 
 function filterProducts(category) {
 
     if (category === "todos") {
-
         renderProducts(products);
-
         return;
     }
 
     const filteredProducts = products.filter(product => {
-
         return product.category === category;
-
     });
 
     renderProducts(filteredProducts);
-
 }
 
 
@@ -588,17 +512,9 @@ function filterProducts(category) {
 
 function addToCart(productId) {
 
-    const product = products.find(product => {
+    const product = products.find(product => product.id === productId);
 
-        return product.id === productId;
-
-    });
-
-    const cartItem = cart.find(item => {
-
-        return item.id === productId;
-
-    });
+    const cartItem = cart.find(item => item.id === productId);
 
     if (!product) {
         return;
@@ -611,19 +527,13 @@ function addToCart(productId) {
     } else {
 
         cart.push({
-
             ...product,
-
             quantity: 1
-
         });
-
     }
 
     saveCart();
-
     updateCart();
-
 }
 
 
@@ -633,25 +543,15 @@ function addToCart(productId) {
 
 function updateCart() {
 
-    const cartCount =
-        document.getElementById("cartCount");
-
-    const cartItems =
-        document.getElementById("cartItems");
-
-    const totalPrice =
-        document.getElementById("totalPrice");
-
+    const cartCount = document.getElementById("cartCount");
+    const cartItems = document.getElementById("cartItems");
+    const totalPrice = document.getElementById("totalPrice");
 
     const quantity = cart.reduce((total, item) => {
-
         return total + item.quantity;
-
     }, 0);
 
-
     cartCount.textContent = quantity;
-
 
     if (cart.length === 0) {
 
@@ -662,68 +562,42 @@ function updateCart() {
             "R$ 0,00";
 
         return;
-
     }
 
-
     cartItems.innerHTML = cart.map(item => `
-
         <div class="cart-item">
 
             <div>
-
-                <strong>
-                    ${item.name}
-                </strong>
-
-                <p>
-                    Consulte o valor
-                </p>
-
+                <strong>${item.name}</strong>
+                <p>${formatPrice(item.price)}</p>
             </div>
-
 
             <div class="quantity-buttons">
 
-                <button
-                    onclick="changeQuantity(${item.id}, -1)"
-                >
+                <button onclick="changeQuantity(${item.id}, -1)">
                     −
                 </button>
 
-                <span>
-                    ${item.quantity}
-                </span>
+                <span>${item.quantity}</span>
 
-                <button
-                    onclick="changeQuantity(${item.id}, 1)"
-                >
+                <button onclick="changeQuantity(${item.id}, 1)">
                     +
                 </button>
 
             </div>
 
-
-            <button
-                onclick="removeFromCart(${item.id})"
-                aria-label="Remover produto"
-            >
-
+            <button onclick="removeFromCart(${item.id})">
                 <i class="fas fa-trash"></i>
-
             </button>
 
         </div>
-
     `).join("");
 
+    const total = cart.reduce((sum, item) => {
+        return sum + item.price * item.quantity;
+    }, 0);
 
-    // Como os valores são consultados pelo WhatsApp,
-    // não mostramos soma em dinheiro.
-
-    totalPrice.textContent =
-        "Consultar";
-
+    totalPrice.textContent = formatPrice(total);
 }
 
 
@@ -733,11 +607,7 @@ function updateCart() {
 
 function changeQuantity(productId, amount) {
 
-    const item = cart.find(item => {
-
-        return item.id === productId;
-
-    });
+    const item = cart.find(item => item.id === productId);
 
     if (!item) {
         return;
@@ -745,20 +615,13 @@ function changeQuantity(productId, amount) {
 
     item.quantity += amount;
 
-
     if (item.quantity <= 0) {
-
         removeFromCart(productId);
-
         return;
-
     }
 
-
     saveCart();
-
     updateCart();
-
 }
 
 
@@ -768,21 +631,15 @@ function changeQuantity(productId, amount) {
 
 function removeFromCart(productId) {
 
-    cart = cart.filter(item => {
-
-        return item.id !== productId;
-
-    });
+    cart = cart.filter(item => item.id !== productId);
 
     saveCart();
-
     updateCart();
-
 }
 
 
 // =========================
-// ABRIR / FECHAR CARRINHO
+// ABRIR E FECHAR CARRINHO
 // =========================
 
 function toggleCart() {
@@ -792,17 +649,15 @@ function toggleCart() {
         .classList
         .toggle("active");
 
-
     document
         .getElementById("overlay")
         .classList
         .toggle("active");
-
 }
 
 
 // =========================
-// ENVIAR PARA WHATSAPP
+// ENVIAR PEDIDO WHATSAPP
 // =========================
 
 function sendToWhatsApp() {
@@ -812,17 +667,13 @@ function sendToWhatsApp() {
         alert("Seu carrinho está vazio.");
 
         return;
-
     }
-
 
     let message =
         "Olá! Vim pelo catálogo da JÉ Perfumes.\n\n";
 
-
     message +=
         "Gostaria de pedir:\n\n";
-
 
     cart.forEach(item => {
 
@@ -831,20 +682,13 @@ function sendToWhatsApp() {
 
     });
 
-
     message +=
         "\nGostaria de confirmar a disponibilidade, o valor e o prazo.";
-
 
     const whatsappURL =
         `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 
-
-    window.open(
-        whatsappURL,
-        "_blank"
-    );
-
+    window.open(whatsappURL, "_blank");
 }
 
 
@@ -855,13 +699,9 @@ function sendToWhatsApp() {
 function formatPrice(value) {
 
     return value.toLocaleString("pt-BR", {
-
         style: "currency",
-
         currency: "BRL"
-
     });
-
 }
 
 
@@ -875,7 +715,6 @@ function saveCart() {
         "jePerfumesCart",
         JSON.stringify(cart)
     );
-
 }
 
 
@@ -888,28 +727,19 @@ function loadCart() {
     const savedCart =
         localStorage.getItem("jePerfumesCart");
 
-
     if (savedCart) {
-
-        cart =
-            JSON.parse(savedCart);
-
+        cart = JSON.parse(savedCart);
     }
 
-
     updateCart();
-
 }
 
 
-// ==================================================
-// CARROSSEL PRINCIPAL
-// ==================================================
+// =========================
+// CARROSSEL DO TOPO
+// =========================
 
 let currentSlide = 0;
-
-
-// MOSTRAR SLIDE
 
 function showSlide(index) {
 
@@ -919,226 +749,106 @@ function showSlide(index) {
     const dots =
         document.querySelectorAll(".dot");
 
-
-    if (
-        slides.length === 0 ||
-        dots.length === 0
-    ) {
-        return;
-    }
-
-
-    if (index >= slides.length) {
-
-        index = 0;
-
-    }
-
-
-    if (index < 0) {
-
-        index =
-            slides.length - 1;
-
-    }
-
-
     slides.forEach(slide => {
-
         slide.classList.remove("active");
-
     });
-
 
     dots.forEach(dot => {
-
         dot.classList.remove("active");
-
     });
 
-
-    slides[index]
-        .classList
-        .add("active");
-
-
-    if (dots[index]) {
-
-        dots[index]
-            .classList
-            .add("active");
-
+    if (index >= slides.length) {
+        index = 0;
     }
 
+    if (index < 0) {
+        index = slides.length - 1;
+    }
+
+    slides[index].classList.add("active");
+
+    if (dots[index]) {
+        dots[index].classList.add("active");
+    }
 
     currentSlide = index;
-
 }
 
-
-// PRÓXIMO SLIDE
 
 function nextSlide() {
 
     currentSlide++;
 
     showSlide(currentSlide);
-
 }
 
-
-// IR PARA SLIDE
 
 function goToSlide(index) {
 
     showSlide(index);
-
 }
 
 
-// TROCA AUTOMÁTICA
-
-setInterval(
-    nextSlide,
-    5000
-);
+// Troca automaticamente a cada 5 segundos
+setInterval(nextSlide, 5000);
 
 
-// ==================================================
+// =========================
 // FOTOS DOS CLIENTES JÉ
-// ==================================================
+// =========================
 
-
-// IMPORTANTE:
-//
-// Os nomes abaixo precisam ser IGUAIS
-// aos nomes dos arquivos dentro da pasta IMAGENS.
-//
-// Exemplo:
-//
-// IMAGENS/cliente1.png
-// IMAGENS/cliente2.png
-// IMAGENS/cliente3.png
-
+// Coloque aqui as imagens dos clientes.
+// Os nomes precisam ser iguais aos arquivos
+// dentro da pasta IMAGENS.
 
 const clientesJE = [
-
     "IMAGENS/cliente1.png",
-
     "IMAGENS/cliente2.png",
-
     "IMAGENS/cliente3.png",
-
     "IMAGENS/cliente4.png"
-
-    "IMAGENS/cliente5.png"
-
-    "IMAGENS/cliente6.png"
-
-    "IMAGENS/cliente7.png"
-
-    "IMAGENS/cliente8.png"
-
-    "IMAGENS/cliente9.png"
-
-    "IMAGENS/cliente10.png"
-
-    "IMAGENS/cliente11.png"
-
 ];
-
-
-// FOTO ATUAL
 
 let currentClient = 0;
 
 
-// =========================
-// MOSTRAR CLIENTE
-// =========================
-
+// Mostrar cliente
 function showClient(index) {
 
     const clientPhoto =
         document.getElementById("clientPhoto");
 
-
     if (!clientPhoto) {
-
         return;
-
     }
-
 
     if (clientesJE.length === 0) {
-
         return;
-
     }
-
-
-    // PASSOU DA ÚLTIMA FOTO
-    // VOLTA PARA A PRIMEIRA
 
     if (index >= clientesJE.length) {
-
         index = 0;
-
     }
-
-
-    // VOLTOU ANTES DA PRIMEIRA
-    // VAI PARA A ÚLTIMA
 
     if (index < 0) {
-
-        index =
-            clientesJE.length - 1;
-
+        index = clientesJE.length - 1;
     }
-
 
     currentClient = index;
 
-
-    // EFEITO SUAVE
-
-    clientPhoto.style.opacity = "0";
-
-
-    setTimeout(() => {
-
-        clientPhoto.src =
-            clientesJE[currentClient];
-
-        clientPhoto.style.opacity = "1";
-
-    }, 150);
-
+    clientPhoto.src =
+        clientesJE[currentClient];
 }
 
 
-// =========================
-// PRÓXIMO CLIENTE
-// =========================
-
+// Próximo cliente
 function nextClient() {
 
-    showClient(
-        currentClient + 1
-    );
-
+    showClient(currentClient + 1);
 }
 
 
-// =========================
-// CLIENTE ANTERIOR
-// =========================
-
+// Cliente anterior
 function prevClient() {
 
-    showClient(
-        currentClient - 1
-    );
-
+    showClient(currentClient - 1);
 }
