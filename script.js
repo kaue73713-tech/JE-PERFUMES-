@@ -852,3 +852,20 @@ function prevClient() {
 
     showClient(currentClient - 1);
 }
+// =========================
+// MÚSICA DO SITE
+// =========================
+
+const bgMusic = document.getElementById("bgMusic");
+
+bgMusic.volume = 0.20;
+
+function startMusic() {
+    bgMusic.play().catch(() => {});
+
+    document.removeEventListener("click", startMusic);
+    document.removeEventListener("touchstart", startMusic);
+}
+
+document.addEventListener("click", startMusic);
+document.addEventListener("touchstart", startMusic);
