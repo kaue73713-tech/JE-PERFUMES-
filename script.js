@@ -872,7 +872,7 @@ function iniciarMusica() {
         return;
     }
 
-    bgMusic.volume = 0.08;
+    bgMusic.volume = 0.15;
 
     bgMusic.play()
         .then(() => {
