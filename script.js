@@ -790,7 +790,7 @@ function goToSlide(index) {
 
 
 // Troca automaticamente a cada 5 segundos
-setInterval(nextSlide, 500000);
+setInterval(nextSlide, 500000000);
 
 
 // =========================
