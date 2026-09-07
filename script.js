@@ -802,10 +802,18 @@ setInterval(nextSlide, 5000);
 // dentro da pasta IMAGENS.
 
 const clientesJE = [
-    "IMAGENS/cliente1.png",
-    "IMAGENS/cliente2.png",
-    "IMAGENS/cliente3.png",
-    "IMAGENS/cliente4.png"
+    "IMAGENS/1.png",
+    "IMAGENS/2.png",
+    "IMAGENS/3.png",
+    "IMAGENS/4.png",
+    "IMAGENS/5.png",
+    "IMAGENS/6.png",
+    "IMAGENS/7.png",
+    "IMAGENS/8.png",
+    "IMAGENS/9.png",
+    "IMAGENS/10.png",
+    "IMAGENS/11.png",
+    
 ];
 
 let currentClient = 0;
