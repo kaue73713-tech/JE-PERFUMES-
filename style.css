@@ -301,72 +301,90 @@ a {
     font-size: clamp(38px, 5vw, 64px);
     font-weight: normal;
 
-    margin-bottom: 10px;
-}
-
-.client-slide-content > p:first-of-type {
-    color: var(--branco);
-
-    font-size: 16px;
-
-    margin-bottom: 18px;
+    margin-bottom: 20px;
 }
 
 
+/* ========================= */
+/* ÁREA DA FOTO DO CLIENTE */
+/* ========================= */
+
+.client-photo-area {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 18px;
+}
+
+
+/* ========================= */
 /* FOTO DO CLIENTE */
+/* ========================= */
 
 .client-slide-image {
-    width: 240px;
-    height: 240px;
+    width: min(75vw, 500px);
+    height: auto;
 
-    object-fit: cover;
+    object-fit: contain;
 
-    border-radius: 50%;
+    /* QUADRADA/RETANGULAR */
+    border-radius: 12px;
 
-    border: 3px solid var(--dourado-claro);
+    border: none;
 
-    box-shadow:
-        0 0 0 6px rgba(214, 180, 90, 0.08),
-        0 0 30px rgba(214, 180, 90, 0.35);
+    box-shadow: none;
 
-    margin: 5px 0 18px;
+    margin: 0;
+
+    display: block;
 
     transition:
         transform 0.3s ease,
-        box-shadow 0.3s ease;
+        opacity 0.25s ease;
 }
 
 .client-slide-image:hover {
-    transform: scale(1.03);
+    transform: scale(1.01);
 
-    box-shadow:
-        0 0 0 6px rgba(214, 180, 90, 0.12),
-        0 0 40px rgba(214, 180, 90, 0.45);
+    box-shadow: none;
 }
 
 
-/* AGRADECIMENTO */
+/* ========================= */
+/* SETAS DOS CLIENTES */
+/* ========================= */
 
-.client-slide-thanks {
-    color: var(--branco);
+.client-arrow {
+    width: 42px;
+    height: 42px;
 
-    margin-bottom: 8px !important;
+    flex: 0 0 42px;
 
-    font-size: 16px !important;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-
-/* ESTRELAS */
-
-.client-slide-stars {
+    background: rgba(0, 0, 0, 0.75);
     color: var(--dourado-claro);
 
-    font-size: 20px;
+    border: 1px solid var(--dourado);
+    border-radius: 50%;
 
-    letter-spacing: 5px;
+    cursor: pointer;
 
-    text-shadow:
-        0 0 12px rgba(214, 180, 90, 0.25);
+    font-size: 16px;
+
+    transition: 0.3s ease;
+}
+
+.client-arrow:hover {
+    background: var(--dourado);
+    color: var(--preto);
+
+    transform: scale(1.05);
 }
 
 
@@ -1083,38 +1101,42 @@ a {
     }
 
 
+    /* ========================= */
     /* CLIENTES JÉ NO CELULAR */
+    /* ========================= */
 
     .client-slide-content h2 {
         font-size: 32px;
 
-        margin-bottom: 8px;
+        margin-bottom: 18px;
     }
 
-    .client-slide-content > p:first-of-type {
-        font-size: 13px;
-
-        margin-bottom: 15px;
+    .client-photo-area {
+        gap: 7px;
     }
 
     .client-slide-image {
-        width: 190px;
+        width: min(72vw, 360px);
+        height: auto;
 
-        height: 190px;
+        object-fit: contain;
 
-        margin: 0 0 12px;
+        border-radius: 10px;
+
+        border: none;
+
+        box-shadow: none;
+
+        margin: 0;
     }
 
-    .client-slide-thanks {
-        font-size: 13px !important;
+    .client-arrow {
+        width: 34px;
+        height: 34px;
 
-        margin-bottom: 7px !important;
-    }
+        flex: 0 0 34px;
 
-    .client-slide-stars {
-        font-size: 16px;
-
-        letter-spacing: 3px;
+        font-size: 13px;
     }
 
 
@@ -1261,12 +1283,20 @@ a {
     }
 
     .client-slide-image {
-        width: 170px;
-
-        height: 170px;
+        width: 70vw;
+        height: auto;
     }
 
     .client-slide-content h2 {
         font-size: 28px;
+    }
+
+    .client-arrow {
+        width: 32px;
+        height: 32px;
+
+        flex: 0 0 32px;
+
+        font-size: 12px;
     }
 }
