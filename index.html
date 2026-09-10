@@ -18,6 +18,26 @@
 <body>
 
     <!-- ========================= -->
+    <!-- COTAÇÃO DO DÓLAR -->
+    <!-- ========================= -->
+
+    <div class="dollar-box">
+
+        <div class="dollar-label">
+            🇺🇸 DÓLAR
+        </div>
+
+        <div
+            class="dollar-value"
+            id="dollarValue"
+        >
+            Carregando...
+        </div>
+
+    </div>
+
+
+    <!-- ========================= -->
     <!-- CABEÇALHO -->
     <!-- ========================= -->
 
@@ -49,9 +69,7 @@
         <section class="hero-slider">
 
 
-            <!-- ========================= -->
             <!-- SLIDE 1 -->
-            <!-- ========================= -->
 
             <div class="slide active">
 
@@ -77,9 +95,7 @@
             </div>
 
 
-            <!-- ========================= -->
             <!-- SLIDE 2 -->
-            <!-- ========================= -->
 
             <div class="slide">
 
@@ -98,9 +114,7 @@
             </div>
 
 
-            <!-- ========================= -->
             <!-- SLIDE 3 -->
-            <!-- ========================= -->
 
             <div class="slide">
 
@@ -131,8 +145,6 @@
 
                     <div class="client-photo-area">
 
-                        <!-- SETA ESQUERDA -->
-
                         <button
                             class="client-arrow"
                             onclick="prevClient()"
@@ -142,19 +154,15 @@
                         </button>
 
 
-                        <!-- IMAGEM DO CLIENTE -->
-
                         <img
-    id="clientPhoto"
-    src="IMAGENS/cliente1.png"
-    alt=""
-    class="client-slide-image"
-    onerror="this.style.display='none'"
-    onload="this.style.display='block'"
->
+                            id="clientPhoto"
+                            src="IMAGENS/cliente1.png"
+                            alt=""
+                            class="client-slide-image"
+                            onerror="this.style.display='none'"
+                            onload="this.style.display='block'"
+                        >
 
-
-                        <!-- SETA DIREITA -->
 
                         <button
                             class="client-arrow"
@@ -252,7 +260,7 @@
                 class="products-grid"
                 id="productsGrid"
             >
-                <!-- Os produtos são adicionados pelo JavaScript -->
+                <!-- Produtos adicionados pelo JavaScript -->
             </div>
 
         </section>
@@ -261,7 +269,7 @@
 
 
     <!-- ========================= -->
-    <!-- CARRINHO LATERAL -->
+    <!-- CARRINHO -->
     <!-- ========================= -->
 
     <aside
@@ -317,7 +325,9 @@
     </aside>
 
 
-    <!-- FUNDO ESCURO DO CARRINHO -->
+    <!-- ========================= -->
+    <!-- FUNDO ESCURO -->
+    <!-- ========================= -->
 
     <div
         class="overlay"
@@ -364,19 +374,71 @@
 
 
     <!-- ========================= -->
-    <!-- MÚSICA DE FUNDO -->
+    <!-- MÚSICA -->
     <!-- ========================= -->
 
     <audio id="bgMusic" loop>
-        <source src="IMAGENS/musica.mp3.mp3" type="audio/mpeg">
+        <source
+            src="IMAGENS/musica.mp3"
+            type="audio/mpeg"
+        >
     </audio>
 
 
     <!-- ========================= -->
-    <!-- JAVASCRIPT -->
+    <!-- JAVASCRIPT DO SITE -->
     <!-- ========================= -->
 
     <script src="script.js"></script>
+
+
+    <!-- ========================= -->
+    <!-- COTAÇÃO AUTOMÁTICA -->
+    <!-- ========================= -->
+
+    <script>
+
+        async function atualizarDolar() {
+
+            const elementoDolar =
+                document.getElementById("dollarValue");
+
+            try {
+
+                const resposta = await fetch(
+                    "https://api.frankfurter.dev/v2/rate/USD/BRL?providers=BCB"
+                );
+
+                if (!resposta.ok) {
+                    throw new Error("Erro ao buscar dólar");
+                }
+
+                const dados = await resposta.json();
+
+                const dolarAtual = Number(dados.rate);
+
+                elementoDolar.textContent =
+                    `R$ ${dolarAtual
+                        .toFixed(2)
+                        .replace(".", ",")}`;
+
+            } catch (erro) {
+
+                console.error(
+                    "Erro ao carregar cotação:",
+                    erro
+                );
+
+                elementoDolar.textContent =
+                    "Indisponível";
+
+            }
+
+        }
+
+        atualizarDolar();
+
+    </script>
 
 </body>
 
