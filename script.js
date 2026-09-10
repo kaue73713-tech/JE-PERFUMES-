@@ -884,3 +884,39 @@ function iniciarMusica() {
 
 document.addEventListener("click", iniciarMusica);
 document.addEventListener("touchstart", iniciarMusica);
+// =========================
+// COTAÇÃO AUTOMÁTICA DO DÓLAR
+// =========================
+
+async function atualizarDolar() {
+
+    const elementoDolar = document.getElementById("dollarValue");
+
+    if (!elementoDolar) return;
+
+    try {
+
+        const resposta = await fetch(
+            "https://api.frankfurter.dev/v2/rate/USD/BRL?providers=BCB"
+        );
+
+        if (!resposta.ok) {
+            throw new Error("Erro ao buscar cotação");
+        }
+
+        const dados = await resposta.json();
+
+        const dolarAtual = Number(dados.rate);
+
+        elementoDolar.textContent =
+            `R$ ${dolarAtual.toFixed(2).replace(".", ",")}`;
+
+    } catch (erro) {
+
+        console.error("Erro ao buscar dólar:", erro);
+
+        elementoDolar.textContent = "Indisponível";
+    }
+}
+
+atualizarDolar();
