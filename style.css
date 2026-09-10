@@ -34,6 +34,39 @@ a {
 }
 
 
+
+/* ========================= */
+/* COTAÇÃO DO DÓLAR */
+/* ========================= */
+
+.dollar-box {
+    width: 100%;
+    min-height: 42px;
+    background: #070707;
+    border-bottom: 1px solid rgba(176, 141, 87, 0.30);
+    padding: 6px 6%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.dollar-label {
+    color: var(--cinza);
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.dollar-value {
+    color: var(--dourado-claro);
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+}
+
+
 /* ========================= */
 /* CABEÇALHO */
 /* ========================= */
@@ -1036,6 +1069,24 @@ a {
 /* ========================= */
 
 @media (max-width: 600px) {
+
+
+    /* COTAÇÃO DO DÓLAR */
+
+    .dollar-box {
+        min-height: 38px;
+        padding: 5px 18px;
+        gap: 8px;
+    }
+
+    .dollar-label {
+        font-size: 9px;
+    }
+
+    .dollar-value {
+        font-size: 13px;
+    }
+
 
     .header {
         min-height: 78px;
