@@ -9,13 +9,13 @@
 }
 
 :root {
-    --fundo: #090806;
---fundo-card: #15120f;
---champagne: #e4c9ad;
---champagne-claro: #f2dfcb;
---marrom: #44372f;
---branco: #f5f2ee;
---cinza: #aaa39d;
+    --preto: #0b0b0b;
+    --preto-claro: #171717;
+    --dourado: #b08d57;
+    --dourado-claro: #d6b45a;
+    --branco: #ffffff;
+    --cinza: #b8b8b8;
+    --verde: #25d366;
 }
 
 html {
@@ -299,7 +299,7 @@ a {
 
     transform: translateY(-2px);
 
-    box-shadow:  0 18px 45px rgba(95, 70, 52, 0.25);;
+    box-shadow:  0 4px 15px rgba(0, 0, 0, 0.4);
 }
 
 
